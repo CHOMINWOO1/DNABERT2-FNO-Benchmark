@@ -1,0 +1,2265 @@
+{
+  "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+  "results": [
+    {
+      "fold": 0,
+      "model": "mlp",
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.7473643108160875,
+        "f1": 0.10758620689655173,
+        "mcc": 0.11781862877893644,
+        "roc_auc": 0.7454026798799637,
+        "pr_auc": 0.11244365042650747,
+        "average_precision": 0.12020477247836407,
+        "macro_auroc": 0.5605183773520647,
+        "macro_ap": 0.37357145253255036,
+        "macro_ap_lift": 0.1833235025395811,
+        "macro_top1": 0.22727272727272727,
+        "matched_concordance": 0.514312847646181
+      },
+      "seconds": 0.19932730006985366,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "mlp",
+          "seed": 42,
+          "lr": 0.0001
+        },
+        "path": "runs\\matched_cv\\fold0\\trials\\mlp_seed42_lr0.0001",
+        "trainable_params": 238160,
+        "head_initial_sha256": "9c1672b62849ddc481076406acb58fda36426048e4a2f0174397bef2d3235fe6",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 6,
+        "best_epoch": 2,
+        "best_dev_mcc": 0.5529100529100529,
+        "training_mode": "cached_frozen",
+        "train_seconds": 5.965467399917543,
+        "dev_seconds": 0.8464695999864489,
+        "epoch_wall_seconds_total": 6.8226326000876725,
+        "mean_train_epoch_seconds": 0.9942445666529238,
+        "peak_memory": {
+          "allocated_mib": 1959.36181640625,
+          "reserved_mib": 2006.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "118300bd61f151d9425ba434a2b2217f72bf102b2c8122d2b470bb41e9292266",
+      "prediction_sha256": "47112322fbb00cf707d64c1376478a2ae0c24c4019be83fd99196fb42bf70a08"
+    },
+    {
+      "fold": 0,
+      "model": "mlp",
+      "seed": 43,
+      "metrics": {
+        "accuracy": 0.6649746192893401,
+        "f1": 0.09110169491525423,
+        "mcc": 0.09877436574270265,
+        "roc_auc": 0.7119885081536278,
+        "pr_auc": 0.09574778787550585,
+        "average_precision": 0.1015934495746601,
+        "macro_auroc": 0.5647939857492519,
+        "macro_ap": 0.40458726729115235,
+        "macro_ap_lift": 0.21433931729818315,
+        "macro_top1": 0.3181818181818182,
+        "matched_concordance": 0.45526387193053863
+      },
+      "seconds": 0.203191899927333,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "mlp",
+          "seed": 43,
+          "lr": 0.0001
+        },
+        "path": "runs\\matched_cv\\fold0\\trials\\mlp_seed43_lr0.0001",
+        "trainable_params": 238160,
+        "head_initial_sha256": "03ca9381ffddd640a1c30fa64cf645158296d7018e26c2870b253f919b853033",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 5,
+        "best_epoch": 1,
+        "best_dev_mcc": 0.6084656084656085,
+        "training_mode": "cached_frozen",
+        "train_seconds": 4.690189799992368,
+        "dev_seconds": 0.6867363998899236,
+        "epoch_wall_seconds_total": 5.38319180009421,
+        "mean_train_epoch_seconds": 0.9380379599984735,
+        "peak_memory": {
+          "allocated_mib": 1959.36181640625,
+          "reserved_mib": 2006.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "95738d85099083eb1b69f75b133c4d4f83a8954303b3b2f5e419b7e3b55ed946",
+      "prediction_sha256": "95d32e1f64a216f015ea073cc93948f0391589e2b10cbd903d10247301b70882"
+    },
+    {
+      "fold": 0,
+      "model": "mlp",
+      "seed": 44,
+      "metrics": {
+        "accuracy": 0.8606013276064037,
+        "f1": 0.11851851851851852,
+        "mcc": 0.10676741265522768,
+        "roc_auc": 0.692860632284179,
+        "pr_auc": 0.09061477135006289,
+        "average_precision": 0.0975464380080774,
+        "macro_auroc": 0.521839230542854,
+        "macro_ap": 0.3045321581928231,
+        "macro_ap_lift": 0.1142842081998539,
+        "macro_top1": 0.09090909090909091,
+        "matched_concordance": 0.616317324650658
+      },
+      "seconds": 0.19990529993083328,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "mlp",
+          "seed": 44,
+          "lr": 0.0001
+        },
+        "path": "runs\\matched_cv\\fold0\\trials\\mlp_seed44_lr0.0001",
+        "trainable_params": 238160,
+        "head_initial_sha256": "18e2863d351f91a29c331ffe9dfeea2bb792d4b62fb040931ed2e8bda3266c43",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 5,
+        "best_epoch": 1,
+        "best_dev_mcc": 0.5523809523809524,
+        "training_mode": "cached_frozen",
+        "train_seconds": 4.699448500061408,
+        "dev_seconds": 0.6836998000508174,
+        "epoch_wall_seconds_total": 5.389552199980244,
+        "mean_train_epoch_seconds": 0.9398897000122816,
+        "peak_memory": {
+          "allocated_mib": 1959.36181640625,
+          "reserved_mib": 2006.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "27ad233731a877b30c043957c99eaa1b171e74fb8081425cc9f2c2bbc3bedbcb",
+      "prediction_sha256": "dc90495596b28647f5969190b5ae0c643fae0d3e6a0605255401ec0b744f1e92"
+    },
+    {
+      "fold": 0,
+      "model": "cnn",
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.8414681764935572,
+        "f1": 0.17479674796747968,
+        "mcc": 0.20524337073061685,
+        "roc_auc": 0.8122804568823132,
+        "pr_auc": 0.18657118275458293,
+        "average_precision": 0.19104082869159408,
+        "macro_auroc": 0.6732675123072965,
+        "macro_ap": 0.4469560980487744,
+        "macro_ap_lift": 0.25670814805580505,
+        "macro_top1": 0.2727272727272727,
+        "matched_concordance": 0.41198616198616195
+      },
+      "seconds": 0.2007613000459969,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "cnn",
+          "seed": 42,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold0\\trials\\cnn_seed42_lr0.001",
+        "trainable_params": 237921,
+        "head_initial_sha256": "9c1672b62849ddc481076406acb58fda36426048e4a2f0174397bef2d3235fe6",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 9,
+        "best_epoch": 5,
+        "best_dev_mcc": 0.5735449735449735,
+        "training_mode": "cached_frozen",
+        "train_seconds": 8.966986199957319,
+        "dev_seconds": 1.2661766001256183,
+        "epoch_wall_seconds_total": 10.244691800209694,
+        "mean_train_epoch_seconds": 0.9963317999952577,
+        "peak_memory": {
+          "allocated_mib": 1957.86572265625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "f6fc15cb4c4a0765e255963792829b4f9f305794b15829f1facc1c4bddcaa6ea",
+      "prediction_sha256": "974486db6829cb63f312907e7944c4cbc3e737e9c3d2ba74fee85b45d1244d66"
+    },
+    {
+      "fold": 0,
+      "model": "cnn",
+      "seed": 43,
+      "metrics": {
+        "accuracy": 0.9582194455290902,
+        "f1": 0.3515151515151515,
+        "mcc": 0.3353459443852053,
+        "roc_auc": 0.8577535068741713,
+        "pr_auc": 0.2779506649605984,
+        "average_precision": 0.2825689921341216,
+        "macro_auroc": 0.7261450731025071,
+        "macro_ap": 0.5270308387044763,
+        "macro_ap_lift": 0.3367828887115071,
+        "macro_top1": 0.36363636363636365,
+        "matched_concordance": 0.441307149640483
+      },
+      "seconds": 0.202688799938187,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "cnn",
+          "seed": 43,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold0\\trials\\cnn_seed43_lr0.001",
+        "trainable_params": 237921,
+        "head_initial_sha256": "03ca9381ffddd640a1c30fa64cf645158296d7018e26c2870b253f919b853033",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 9,
+        "best_epoch": 5,
+        "best_dev_mcc": 0.5788359788359787,
+        "training_mode": "cached_frozen",
+        "train_seconds": 9.014931500074454,
+        "dev_seconds": 1.266461499966681,
+        "epoch_wall_seconds_total": 10.300931799924001,
+        "mean_train_epoch_seconds": 1.0016590555638283,
+        "peak_memory": {
+          "allocated_mib": 1957.86572265625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "f17ba649acc4060ffb111dc5a75f609d4c64b06891eaa97d5ff4a451af20acdd",
+      "prediction_sha256": "1a4c784c56d47239b8f49b96047a4ae7942669f6234eb1d3f2c5133f7d72afa6"
+    },
+    {
+      "fold": 0,
+      "model": "cnn",
+      "seed": 44,
+      "metrics": {
+        "accuracy": 0.8727059742288169,
+        "f1": 0.17258883248730963,
+        "mcc": 0.18288819221211114,
+        "roc_auc": 0.7680490613441274,
+        "pr_auc": 0.17384921928017233,
+        "average_precision": 0.1764691915318144,
+        "macro_auroc": 0.6518297394616362,
+        "macro_ap": 0.42890742007596555,
+        "macro_ap_lift": 0.23865947008299634,
+        "macro_top1": 0.2727272727272727,
+        "matched_concordance": 0.4846357346357346
+      },
+      "seconds": 0.20171659998595715,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "cnn",
+          "seed": 44,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold0\\trials\\cnn_seed44_lr0.001",
+        "trainable_params": 237921,
+        "head_initial_sha256": "18e2863d351f91a29c331ffe9dfeea2bb792d4b62fb040931ed2e8bda3266c43",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 11,
+        "best_epoch": 7,
+        "best_dev_mcc": 0.696031746031746,
+        "training_mode": "cached_frozen",
+        "train_seconds": 11.106362299877219,
+        "dev_seconds": 1.562265600077808,
+        "epoch_wall_seconds_total": 12.688721199752763,
+        "mean_train_epoch_seconds": 1.0096692999888381,
+        "peak_memory": {
+          "allocated_mib": 1957.86572265625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "122f3a3005462ecac544a98fead0ff891e3912a387131189d10c3478a6d8cf59",
+      "prediction_sha256": "f7c3dcd2bc465082afe6c9b08b1c9e5f0dd656967f8803346c4a4be0b17d2a7a"
+    },
+    {
+      "fold": 0,
+      "model": "fno",
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.9445529090199141,
+        "f1": 0.22826086956521738,
+        "mcc": 0.2084614427543798,
+        "roc_auc": 0.7665253448717053,
+        "pr_auc": 0.19719536857690897,
+        "average_precision": 0.20055884278319097,
+        "macro_auroc": 0.6792867928191776,
+        "macro_ap": 0.45006598051957153,
+        "macro_ap_lift": 0.2598180305266023,
+        "macro_top1": 0.3181818181818182,
+        "matched_concordance": 0.5249287749287749
+      },
+      "seconds": 0.2084325000178069,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "fno",
+          "seed": 42,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold0\\trials\\fno_seed42_lr0.001",
+        "trainable_params": 235587,
+        "head_initial_sha256": "9c1672b62849ddc481076406acb58fda36426048e4a2f0174397bef2d3235fe6",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 10,
+        "best_epoch": 6,
+        "best_dev_mcc": 0.6333333333333333,
+        "training_mode": "cached_frozen",
+        "train_seconds": 10.422013700008392,
+        "dev_seconds": 1.4434439999749884,
+        "epoch_wall_seconds_total": 11.881866700132377,
+        "mean_train_epoch_seconds": 1.0422013700008392,
+        "peak_memory": {
+          "allocated_mib": 1957.8271484375,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "c0fadd48f7063b85599f8a91e854ec533e99f5c9bbe345bb3b2e0ddd5b39f4b0",
+      "prediction_sha256": "8705dcae9a380addbdaa9f1635f63d693a520a6b9f4dfe562e60d61ee2131a9c"
+    },
+    {
+      "fold": 0,
+      "model": "fno",
+      "seed": 43,
+      "metrics": {
+        "accuracy": 0.9574385005857087,
+        "f1": 0.14173228346456693,
+        "mcc": 0.12055454710543334,
+        "roc_auc": 0.7265830367320354,
+        "pr_auc": 0.10882155194835397,
+        "average_precision": 0.1094726491533885,
+        "macro_auroc": 0.6143401237053618,
+        "macro_ap": 0.3953033840625171,
+        "macro_ap_lift": 0.2050554340695478,
+        "macro_top1": 0.2727272727272727,
+        "matched_concordance": 0.4027269027269027
+      },
+      "seconds": 0.2082544999429956,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "fno",
+          "seed": 43,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold0\\trials\\fno_seed43_lr0.001",
+        "trainable_params": 235587,
+        "head_initial_sha256": "03ca9381ffddd640a1c30fa64cf645158296d7018e26c2870b253f919b853033",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 15,
+        "best_epoch": 11,
+        "best_dev_mcc": 0.6793650793650793,
+        "training_mode": "cached_frozen",
+        "train_seconds": 15.741655299905688,
+        "dev_seconds": 2.1822368997382,
+        "epoch_wall_seconds_total": 17.955825299723074,
+        "mean_train_epoch_seconds": 1.0494436866603791,
+        "peak_memory": {
+          "allocated_mib": 1957.8271484375,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "f95b14a97eff577981dc5871d388a7b9d8cad5271f84f79f28f1864953277c78",
+      "prediction_sha256": "cf8b1031a1beb07a99ff1a812506cfb480680baad56da53dade1cbfb2fda8998"
+    },
+    {
+      "fold": 0,
+      "model": "fno",
+      "seed": 44,
+      "metrics": {
+        "accuracy": 0.7860210855134713,
+        "f1": 0.10749185667752444,
+        "mcc": 0.10792072074440417,
+        "roc_auc": 0.7022384674436458,
+        "pr_auc": 0.11422706460581594,
+        "average_precision": 0.12261947667910894,
+        "macro_auroc": 0.4350012725632339,
+        "macro_ap": 0.3131633986663914,
+        "macro_ap_lift": 0.1229154486734222,
+        "macro_top1": 0.18181818181818182,
+        "matched_concordance": 0.30898114231447565
+      },
+      "seconds": 0.21013440005481243,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "fno",
+          "seed": 44,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold0\\trials\\fno_seed44_lr0.001",
+        "trainable_params": 235587,
+        "head_initial_sha256": "18e2863d351f91a29c331ffe9dfeea2bb792d4b62fb040931ed2e8bda3266c43",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 10,
+        "best_epoch": 6,
+        "best_dev_mcc": 0.4904761904761905,
+        "training_mode": "cached_frozen",
+        "train_seconds": 10.866305599804036,
+        "dev_seconds": 1.4470202000811696,
+        "epoch_wall_seconds_total": 12.330024700146168,
+        "mean_train_epoch_seconds": 1.0866305599804036,
+        "peak_memory": {
+          "allocated_mib": 1957.8271484375,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "11219850880c0ec58dba98652c4c3a1998aeb5499305348ec914d12cd4f1d3d0",
+      "prediction_sha256": "7e8b416e3feba256dea5fd3d42c99cc8b4072822fb9d42239b808663e65f9c47"
+    },
+    {
+      "fold": 1,
+      "model": "mlp",
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.929192546583851,
+        "f1": 0.40625,
+        "mcc": 0.37189306765153246,
+        "roc_auc": 0.8597415621986501,
+        "pr_auc": 0.33201112046642267,
+        "average_precision": 0.33755184404441607,
+        "macro_auroc": 0.7414713433332539,
+        "macro_ap": 0.6741047742167389,
+        "macro_ap_lift": 0.3528030912262391,
+        "macro_top1": 0.5652173913043478,
+        "matched_concordance": 0.6174603174603175
+      },
+      "seconds": 0.14221409999299794,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "mlp",
+          "seed": 42,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold1\\trials\\mlp_seed42_lr0.001",
+        "trainable_params": 238160,
+        "head_initial_sha256": "9c1672b62849ddc481076406acb58fda36426048e4a2f0174397bef2d3235fe6",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 13,
+        "best_epoch": 9,
+        "best_dev_mcc": 0.7714285714285715,
+        "training_mode": "cached_frozen",
+        "train_seconds": 14.765264699817635,
+        "dev_seconds": 1.8725637999596074,
+        "epoch_wall_seconds_total": 16.662897600093856,
+        "mean_train_epoch_seconds": 1.1357895922936643,
+        "peak_memory": {
+          "allocated_mib": 1959.36181640625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "8a3fb71d91caede738ccad0b1001c271924e004c5fa1365e93d558c0b5880ca0",
+      "prediction_sha256": "076a8968c4e84a961a2d8a209b47f2daeb3997f689d49f275b06509136728ccc"
+    },
+    {
+      "fold": 1,
+      "model": "mlp",
+      "seed": 43,
+      "metrics": {
+        "accuracy": 0.9130434782608695,
+        "f1": 0.33962264150943394,
+        "mcc": 0.301858227866835,
+        "roc_auc": 0.8137974927675988,
+        "pr_auc": 0.28922835224752236,
+        "average_precision": 0.2977097457970052,
+        "macro_auroc": 0.7446453262765632,
+        "macro_ap": 0.6385310107899901,
+        "macro_ap_lift": 0.3172293277994901,
+        "macro_top1": 0.5217391304347826,
+        "matched_concordance": 0.5947089947089946
+      },
+      "seconds": 0.1413200000533834,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "mlp",
+          "seed": 43,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold1\\trials\\mlp_seed43_lr0.001",
+        "trainable_params": 238160,
+        "head_initial_sha256": "03ca9381ffddd640a1c30fa64cf645158296d7018e26c2870b253f919b853033",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 18,
+        "best_epoch": 14,
+        "best_dev_mcc": 0.7788359788359789,
+        "training_mode": "cached_frozen",
+        "train_seconds": 20.482245599967428,
+        "dev_seconds": 2.617401900002733,
+        "epoch_wall_seconds_total": 23.127107300097123,
+        "mean_train_epoch_seconds": 1.1379025333315238,
+        "peak_memory": {
+          "allocated_mib": 1959.36181640625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "292684a01c5f5745bff1dae9637f7f8fdbc9d962871f960acd5a6408b3bb4a70",
+      "prediction_sha256": "a5805d801a9ca6413edf9691fd093c76f5a6e78b75e34a6808e36a182417eea3"
+    },
+    {
+      "fold": 1,
+      "model": "mlp",
+      "seed": 44,
+      "metrics": {
+        "accuracy": 0.846583850931677,
+        "f1": 0.2626865671641791,
+        "mcc": 0.23621651890336734,
+        "roc_auc": 0.7992131147540983,
+        "pr_auc": 0.17590495050752433,
+        "average_precision": 0.17970305810192297,
+        "macro_auroc": 0.644817083179101,
+        "macro_ap": 0.5814395662998147,
+        "macro_ap_lift": 0.2601378833093148,
+        "macro_top1": 0.4782608695652174,
+        "matched_concordance": 0.5121693121693122
+      },
+      "seconds": 0.14061170001514256,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "mlp",
+          "seed": 44,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold1\\trials\\mlp_seed44_lr0.001",
+        "trainable_params": 238160,
+        "head_initial_sha256": "18e2863d351f91a29c331ffe9dfeea2bb792d4b62fb040931ed2e8bda3266c43",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 8,
+        "best_epoch": 4,
+        "best_dev_mcc": 0.6910052910052911,
+        "training_mode": "cached_frozen",
+        "train_seconds": 9.06984990008641,
+        "dev_seconds": 1.1593072999967262,
+        "epoch_wall_seconds_total": 10.245744899846613,
+        "mean_train_epoch_seconds": 1.1337312375108013,
+        "peak_memory": {
+          "allocated_mib": 1959.36181640625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "c3e56e29e2eb811ced182ffe1c3f0c3d04372c19a7af596da2226fff79909b0b",
+      "prediction_sha256": "ef86ba23216ce5b2a47586b5d3cdfda9f8b13042e7a80df5fdb7309670943efc"
+    },
+    {
+      "fold": 1,
+      "model": "cnn",
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.7608695652173914,
+        "f1": 0.2158859470468432,
+        "mcc": 0.20188963169907048,
+        "roc_auc": 0.7789546769527483,
+        "pr_auc": 0.1799580291114747,
+        "average_precision": 0.18624025046804685,
+        "macro_auroc": 0.5922691494407447,
+        "macro_ap": 0.5419031935186431,
+        "macro_ap_lift": 0.2206015105281432,
+        "macro_top1": 0.43478260869565216,
+        "matched_concordance": 0.5068783068783068
+      },
+      "seconds": 0.14254429994616657,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "cnn",
+          "seed": 42,
+          "lr": 0.0001
+        },
+        "path": "runs\\matched_cv\\fold1\\trials\\cnn_seed42_lr0.0001",
+        "trainable_params": 237921,
+        "head_initial_sha256": "9c1672b62849ddc481076406acb58fda36426048e4a2f0174397bef2d3235fe6",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 12,
+        "best_epoch": 8,
+        "best_dev_mcc": 0.6904761904761905,
+        "training_mode": "cached_frozen",
+        "train_seconds": 14.346429300145246,
+        "dev_seconds": 1.7466895998222753,
+        "epoch_wall_seconds_total": 16.11468819982838,
+        "mean_train_epoch_seconds": 1.1955357750121038,
+        "peak_memory": {
+          "allocated_mib": 1957.86572265625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "bba5d678bde80080b3fc3f672cb3570dc59866a2ebd75c021cbded9759a14680",
+      "prediction_sha256": "6bcbe5920a929389f264dc6c7f182755aa0d77a9781032a85c813b2b3c09aee1"
+    },
+    {
+      "fold": 1,
+      "model": "cnn",
+      "seed": 43,
+      "metrics": {
+        "accuracy": 0.7813664596273292,
+        "f1": 0.2072072072072072,
+        "mcc": 0.18047540748417787,
+        "roc_auc": 0.7481504339440694,
+        "pr_auc": 0.15332433068907803,
+        "average_precision": 0.16044202774636623,
+        "macro_auroc": 0.6312613410353325,
+        "macro_ap": 0.5642181653703393,
+        "macro_ap_lift": 0.24291648237983943,
+        "macro_top1": 0.43478260869565216,
+        "matched_concordance": 0.6502645502645503
+      },
+      "seconds": 0.14239640010055155,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "cnn",
+          "seed": 43,
+          "lr": 0.0001
+        },
+        "path": "runs\\matched_cv\\fold1\\trials\\cnn_seed43_lr0.0001",
+        "trainable_params": 237921,
+        "head_initial_sha256": "03ca9381ffddd640a1c30fa64cf645158296d7018e26c2870b253f919b853033",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 17,
+        "best_epoch": 13,
+        "best_dev_mcc": 0.6544973544973546,
+        "training_mode": "cached_frozen",
+        "train_seconds": 20.48430939973332,
+        "dev_seconds": 2.481849400093779,
+        "epoch_wall_seconds_total": 22.996363199898042,
+        "mean_train_epoch_seconds": 1.2049593764549011,
+        "peak_memory": {
+          "allocated_mib": 1957.86572265625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "1d0171fe8bf7b5ec8b06c044ff5683c031dc30ea9be1ebc6dde1f25a7cd61698",
+      "prediction_sha256": "8d9e03cc352f9f4daf51e1d7828cb8080bb88b76160713fc1a126c1747c0f787"
+    },
+    {
+      "fold": 1,
+      "model": "cnn",
+      "seed": 44,
+      "metrics": {
+        "accuracy": 0.9279503105590062,
+        "f1": 0.3333333333333333,
+        "mcc": 0.2953590996698014,
+        "roc_auc": 0.8220057859209258,
+        "pr_auc": 0.24164809534226264,
+        "average_precision": 0.246559305323331,
+        "macro_auroc": 0.642277780796394,
+        "macro_ap": 0.5895979354408293,
+        "macro_ap_lift": 0.26829625245032934,
+        "macro_top1": 0.4782608695652174,
+        "matched_concordance": 0.5068783068783068
+      },
+      "seconds": 0.14101829996798187,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "cnn",
+          "seed": 44,
+          "lr": 0.0001
+        },
+        "path": "runs\\matched_cv\\fold1\\trials\\cnn_seed44_lr0.0001",
+        "trainable_params": 237921,
+        "head_initial_sha256": "18e2863d351f91a29c331ffe9dfeea2bb792d4b62fb040931ed2e8bda3266c43",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 7,
+        "best_epoch": 3,
+        "best_dev_mcc": 0.6431216931216931,
+        "training_mode": "cached_frozen",
+        "train_seconds": 8.03086170007009,
+        "dev_seconds": 1.0233547998359427,
+        "epoch_wall_seconds_total": 9.068830800009891,
+        "mean_train_epoch_seconds": 1.14726595715287,
+        "peak_memory": {
+          "allocated_mib": 1957.86572265625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "4382f98ed029d7920221914800d2a0dc8033ba7e6751487294007862a60931d3",
+      "prediction_sha256": "dd68930e63d96d74f45d9802b4772d7db5f1824908f340210578d2fbe20582ac"
+    },
+    {
+      "fold": 1,
+      "model": "fno",
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.9360248447204969,
+        "f1": 0.29931972789115646,
+        "mcc": 0.2703096865069849,
+        "roc_auc": 0.7742835101253616,
+        "pr_auc": 0.21946090837778354,
+        "average_precision": 0.2247671104882184,
+        "macro_auroc": 0.7178829190093957,
+        "macro_ap": 0.6228657653325171,
+        "macro_ap_lift": 0.3015640823420173,
+        "macro_top1": 0.43478260869565216,
+        "matched_concordance": 0.6444444444444444
+      },
+      "seconds": 0.1451243000337854,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "fno",
+          "seed": 42,
+          "lr": 0.0003
+        },
+        "path": "runs\\matched_cv\\fold1\\trials\\fno_seed42_lr0.0003",
+        "trainable_params": 235587,
+        "head_initial_sha256": "9c1672b62849ddc481076406acb58fda36426048e4a2f0174397bef2d3235fe6",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 16,
+        "best_epoch": 12,
+        "best_dev_mcc": 0.8031746031746032,
+        "training_mode": "cached_frozen",
+        "train_seconds": 18.75084499991499,
+        "dev_seconds": 2.3892152002081275,
+        "epoch_wall_seconds_total": 21.171200600103475,
+        "mean_train_epoch_seconds": 1.1719278124946868,
+        "peak_memory": {
+          "allocated_mib": 1957.8271484375,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "69b7267c04afd7805c1eea678127a5a91b48bf7e18aac7b7a352c252c85b0de8",
+      "prediction_sha256": "5709c9f2dcb92b5b6b4c049e7287c988b3c077a629f7e2f7ebfab822c17ac3dd"
+    },
+    {
+      "fold": 1,
+      "model": "fno",
+      "seed": 43,
+      "metrics": {
+        "accuracy": 0.9416149068322981,
+        "f1": 0.29850746268656714,
+        "mcc": 0.2815507471672148,
+        "roc_auc": 0.8275679845708775,
+        "pr_auc": 0.25889999457469376,
+        "average_precision": 0.2662009151359719,
+        "macro_auroc": 0.5779140588652795,
+        "macro_ap": 0.5327094397578312,
+        "macro_ap_lift": 0.2114077567673313,
+        "macro_top1": 0.43478260869565216,
+        "matched_concordance": 0.5068783068783068
+      },
+      "seconds": 0.14750980003736913,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "fno",
+          "seed": 43,
+          "lr": 0.0003
+        },
+        "path": "runs\\matched_cv\\fold1\\trials\\fno_seed43_lr0.0003",
+        "trainable_params": 235587,
+        "head_initial_sha256": "03ca9381ffddd640a1c30fa64cf645158296d7018e26c2870b253f919b853033",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 8,
+        "best_epoch": 4,
+        "best_dev_mcc": 0.7037037037037037,
+        "training_mode": "cached_frozen",
+        "train_seconds": 9.453538599889725,
+        "dev_seconds": 1.1969719998305663,
+        "epoch_wall_seconds_total": 10.66507200000342,
+        "mean_train_epoch_seconds": 1.1816923249862157,
+        "peak_memory": {
+          "allocated_mib": 1957.8271484375,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "a1423caa837be7d4df0ad03db44127d31e92e017eff0e846ead4ac6b53985e4e",
+      "prediction_sha256": "42b27b5eab44742f02145ca34fbed89517e20b76af8801870f87e79fd81bbb49"
+    },
+    {
+      "fold": 1,
+      "model": "fno",
+      "seed": 44,
+      "metrics": {
+        "accuracy": 0.8248447204968944,
+        "f1": 0.28061224489795916,
+        "mcc": 0.2742719740932936,
+        "roc_auc": 0.8249874638379942,
+        "pr_auc": 0.24456420396469836,
+        "average_precision": 0.25010441653866333,
+        "macro_auroc": 0.7113341373228874,
+        "macro_ap": 0.6280424454918468,
+        "macro_ap_lift": 0.306740762501347,
+        "macro_top1": 0.4782608695652174,
+        "matched_concordance": 0.5730158730158731
+      },
+      "seconds": 0.14529869996476918,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "fno",
+          "seed": 44,
+          "lr": 0.0003
+        },
+        "path": "runs\\matched_cv\\fold1\\trials\\fno_seed44_lr0.0003",
+        "trainable_params": 235587,
+        "head_initial_sha256": "18e2863d351f91a29c331ffe9dfeea2bb792d4b62fb040931ed2e8bda3266c43",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 10,
+        "best_epoch": 6,
+        "best_dev_mcc": 0.5846560846560847,
+        "training_mode": "cached_frozen",
+        "train_seconds": 11.879425900056958,
+        "dev_seconds": 1.5060963998548687,
+        "epoch_wall_seconds_total": 13.408828499610536,
+        "mean_train_epoch_seconds": 1.187942590005696,
+        "peak_memory": {
+          "allocated_mib": 1957.8271484375,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "8f97218d05ea7079d26db45fe3873f75938e89ea780f027225c2be1207e6588b",
+      "prediction_sha256": "bae4b50456b85b33e40b41d75fb15c9d9a78ef3cd5743ae27132f3d89e26410f"
+    },
+    {
+      "fold": 2,
+      "model": "mlp",
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.8697829716193656,
+        "f1": 0.2822085889570552,
+        "mcc": 0.2597088153235586,
+        "roc_auc": 0.810093939952109,
+        "pr_auc": 0.302764906095809,
+        "average_precision": 0.30516386811337354,
+        "macro_auroc": 0.7283501581836211,
+        "macro_ap": 0.6403672440687219,
+        "macro_ap_lift": 0.3455451397884133,
+        "macro_top1": 0.5882352941176471,
+        "matched_concordance": 0.5481481481481482
+      },
+      "seconds": 0.14502729999367148,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "mlp",
+          "seed": 42,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold2\\trials\\mlp_seed42_lr0.001",
+        "trainable_params": 238160,
+        "head_initial_sha256": "9c1672b62849ddc481076406acb58fda36426048e4a2f0174397bef2d3235fe6",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 10,
+        "best_epoch": 6,
+        "best_dev_mcc": 0.6595238095238095,
+        "training_mode": "cached_frozen",
+        "train_seconds": 9.861128199845552,
+        "dev_seconds": 2.1899673998123035,
+        "epoch_wall_seconds_total": 12.072384900064208,
+        "mean_train_epoch_seconds": 0.9861128199845552,
+        "peak_memory": {
+          "allocated_mib": 1959.36181640625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "c35e9bf2deccec7b1992ba792afbc62e835abf6a0a41a153201c7b4c547cc991",
+      "prediction_sha256": "10624902879a8c89af5727a897c99fa5155404f1b2687f626149f1b89ebaa3ac"
+    },
+    {
+      "fold": 2,
+      "model": "mlp",
+      "seed": 43,
+      "metrics": {
+        "accuracy": 0.8180300500834724,
+        "f1": 0.2717149220489978,
+        "mcc": 0.2766396394631394,
+        "roc_auc": 0.8309738704839091,
+        "pr_auc": 0.36001446523320013,
+        "average_precision": 0.3630088431682237,
+        "macro_auroc": 0.749040459678989,
+        "macro_ap": 0.6553964893012224,
+        "macro_ap_lift": 0.3605743850209138,
+        "macro_top1": 0.5882352941176471,
+        "matched_concordance": 0.4941798941798942
+      },
+      "seconds": 0.1456954999594018,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "mlp",
+          "seed": 43,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold2\\trials\\mlp_seed43_lr0.001",
+        "trainable_params": 238160,
+        "head_initial_sha256": "03ca9381ffddd640a1c30fa64cf645158296d7018e26c2870b253f919b853033",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 9,
+        "best_epoch": 5,
+        "best_dev_mcc": 0.5730158730158731,
+        "training_mode": "cached_frozen",
+        "train_seconds": 8.389890200109221,
+        "dev_seconds": 1.9715151998680085,
+        "epoch_wall_seconds_total": 10.385634300066158,
+        "mean_train_epoch_seconds": 0.9322100222343579,
+        "peak_memory": {
+          "allocated_mib": 1959.36181640625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "a8fd315d3d40d69742f477c63b29cfaabddec72ebe4564622db04c71f42b703d",
+      "prediction_sha256": "abe606aba6dfe6c635b4422f2fa78a8dc957895e37359de2c0c6608f0c0bc5ac"
+    },
+    {
+      "fold": 2,
+      "model": "mlp",
+      "seed": 44,
+      "metrics": {
+        "accuracy": 0.780189204229271,
+        "f1": 0.2418426103646833,
+        "mcc": 0.24971209848276582,
+        "roc_auc": 0.8469298476436071,
+        "pr_auc": 0.3501476340989853,
+        "average_precision": 0.35409860947533134,
+        "macro_auroc": 0.7238660317762936,
+        "macro_ap": 0.6381753985159456,
+        "macro_ap_lift": 0.3433532942356371,
+        "macro_top1": 0.47058823529411764,
+        "matched_concordance": 0.4846560846560846
+      },
+      "seconds": 0.14599440002348274,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "mlp",
+          "seed": 44,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold2\\trials\\mlp_seed44_lr0.001",
+        "trainable_params": 238160,
+        "head_initial_sha256": "18e2863d351f91a29c331ffe9dfeea2bb792d4b62fb040931ed2e8bda3266c43",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 8,
+        "best_epoch": 4,
+        "best_dev_mcc": 0.5722222222222223,
+        "training_mode": "cached_frozen",
+        "train_seconds": 7.028266400215216,
+        "dev_seconds": 1.6678057999815792,
+        "epoch_wall_seconds_total": 8.714213699917309,
+        "mean_train_epoch_seconds": 0.878533300026902,
+        "peak_memory": {
+          "allocated_mib": 1959.36181640625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "e3ee25a275fa1b1517f1bfc5c0e77fca3946530de0df992ecb462710d6608d03",
+      "prediction_sha256": "ccef1102e92492a17dc18b55776980263f7728fd86d3ceb751f0c4e284334e7f"
+    },
+    {
+      "fold": 2,
+      "model": "cnn",
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.8770172509738453,
+        "f1": 0.34421364985163205,
+        "mcc": 0.3399681468033961,
+        "roc_auc": 0.8712930558113834,
+        "pr_auc": 0.41672468783682326,
+        "average_precision": 0.42004810503717827,
+        "macro_auroc": 0.7487140660529671,
+        "macro_ap": 0.6647330520587819,
+        "macro_ap_lift": 0.3699109477784732,
+        "macro_top1": 0.5882352941176471,
+        "matched_concordance": 0.49947089947089945
+      },
+      "seconds": 0.1463588000042364,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "cnn",
+          "seed": 42,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold2\\trials\\cnn_seed42_lr0.001",
+        "trainable_params": 237921,
+        "head_initial_sha256": "9c1672b62849ddc481076406acb58fda36426048e4a2f0174397bef2d3235fe6",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 14,
+        "best_epoch": 10,
+        "best_dev_mcc": 0.6261904761904762,
+        "training_mode": "cached_frozen",
+        "train_seconds": 13.65392730012536,
+        "dev_seconds": 3.034978800220415,
+        "epoch_wall_seconds_total": 16.720045900088735,
+        "mean_train_epoch_seconds": 0.9752805214375257,
+        "peak_memory": {
+          "allocated_mib": 1957.86572265625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "029a21b10910fafbbb447159c03446dc7cb5a14808f76e3dd3985f722ea49b1f",
+      "prediction_sha256": "e8b6c1089683e74f9153c5612afd2ee12fc0d281be6a179aa323bc81b29ec2a9"
+    },
+    {
+      "fold": 2,
+      "model": "cnn",
+      "seed": 43,
+      "metrics": {
+        "accuracy": 0.44073455759599334,
+        "f1": 0.14175918018787362,
+        "mcc": 0.15412179400555637,
+        "roc_auc": 0.8256650790727047,
+        "pr_auc": 0.2858523481366693,
+        "average_precision": 0.2940426183662184,
+        "macro_auroc": 0.7342193182798986,
+        "macro_ap": 0.6269269449854503,
+        "macro_ap_lift": 0.33210484070514174,
+        "macro_top1": 0.5294117647058824,
+        "matched_concordance": 0.5238095238095238
+      },
+      "seconds": 0.1471938999602571,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "cnn",
+          "seed": 43,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold2\\trials\\cnn_seed43_lr0.001",
+        "trainable_params": 237921,
+        "head_initial_sha256": "03ca9381ffddd640a1c30fa64cf645158296d7018e26c2870b253f919b853033",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 7,
+        "best_epoch": 3,
+        "best_dev_mcc": 0.5261904761904763,
+        "training_mode": "cached_frozen",
+        "train_seconds": 6.888046799926087,
+        "dev_seconds": 1.5168416000669822,
+        "epoch_wall_seconds_total": 8.415934299817309,
+        "mean_train_epoch_seconds": 0.9840066857037267,
+        "peak_memory": {
+          "allocated_mib": 1957.86572265625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "49c82a36b732b5aef7909693763d902dd96202dbe07547d4c5d7e04379c882d1",
+      "prediction_sha256": "7fd16ba6dec37ec80286e55ee7e8486f13bef7b6ea458f706bdf8e7505b0d9cd"
+    },
+    {
+      "fold": 2,
+      "model": "cnn",
+      "seed": 44,
+      "metrics": {
+        "accuracy": 0.897607122982749,
+        "f1": 0.3741496598639456,
+        "mcc": 0.3618209895413816,
+        "roc_auc": 0.8683327632029051,
+        "pr_auc": 0.42912980669654377,
+        "average_precision": 0.4320590801306697,
+        "macro_auroc": 0.761924734825719,
+        "macro_ap": 0.6702406250204325,
+        "macro_ap_lift": 0.3754185207401239,
+        "macro_top1": 0.5882352941176471,
+        "matched_concordance": 0.4973544973544974
+      },
+      "seconds": 0.14591020008083433,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "cnn",
+          "seed": 44,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold2\\trials\\cnn_seed44_lr0.001",
+        "trainable_params": 237921,
+        "head_initial_sha256": "18e2863d351f91a29c331ffe9dfeea2bb792d4b62fb040931ed2e8bda3266c43",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 12,
+        "best_epoch": 8,
+        "best_dev_mcc": 0.6246031746031746,
+        "training_mode": "cached_frozen",
+        "train_seconds": 11.884938400238752,
+        "dev_seconds": 2.615797000238672,
+        "epoch_wall_seconds_total": 14.523515800130554,
+        "mean_train_epoch_seconds": 0.9904115333532294,
+        "peak_memory": {
+          "allocated_mib": 1957.86572265625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "d67a415db04b421b7720b35f8637df8eeb2a8f879cd311f3439e74f61cd4fae8",
+      "prediction_sha256": "ccfd723f5826b928ac7c99ffdb67c23c25e812b13141c1d69dff4eed6bb28329"
+    },
+    {
+      "fold": 2,
+      "model": "fno",
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.44574290484140233,
+        "f1": 0.14726027397260275,
+        "mcc": 0.17050049322257266,
+        "roc_auc": 0.8450484172302187,
+        "pr_auc": 0.31444043574308206,
+        "average_precision": 0.3200184604088204,
+        "macro_auroc": 0.7152646919761212,
+        "macro_ap": 0.6159262598386384,
+        "macro_ap_lift": 0.32110415555832966,
+        "macro_top1": 0.47058823529411764,
+        "matched_concordance": 0.40502645502645496
+      },
+      "seconds": 0.15083130006678402,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "fno",
+          "seed": 42,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold2\\trials\\fno_seed42_lr0.001",
+        "trainable_params": 235587,
+        "head_initial_sha256": "9c1672b62849ddc481076406acb58fda36426048e4a2f0174397bef2d3235fe6",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 8,
+        "best_epoch": 4,
+        "best_dev_mcc": 0.6476190476190476,
+        "training_mode": "cached_frozen",
+        "train_seconds": 8.156742500024848,
+        "dev_seconds": 1.776663200231269,
+        "epoch_wall_seconds_total": 9.953079999890178,
+        "mean_train_epoch_seconds": 1.019592812503106,
+        "peak_memory": {
+          "allocated_mib": 1957.8271484375,
+          "reserved_mib": 2006.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "1f000a922f74aafd676e0972d5776cdc72e50790aceb362bda9ba005cbd200a9",
+      "prediction_sha256": "586ef32bf56586bef26aeccd0389d0622d74f9a6e03fc67a638c82386dd84cba"
+    },
+    {
+      "fold": 2,
+      "model": "fno",
+      "seed": 43,
+      "metrics": {
+        "accuracy": 0.6393989983305509,
+        "f1": 0.18387909319899245,
+        "mcc": 0.20005057474938587,
+        "roc_auc": 0.8394699102702419,
+        "pr_auc": 0.34887995670297633,
+        "average_precision": 0.3519413052468978,
+        "macro_auroc": 0.7486114829455326,
+        "macro_ap": 0.6580837003738669,
+        "macro_ap_lift": 0.36326159609355824,
+        "macro_top1": 0.5294117647058824,
+        "matched_concordance": 0.5142857142857142
+      },
+      "seconds": 0.15218069998081774,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "fno",
+          "seed": 43,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold2\\trials\\fno_seed43_lr0.001",
+        "trainable_params": 235587,
+        "head_initial_sha256": "03ca9381ffddd640a1c30fa64cf645158296d7018e26c2870b253f919b853033",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 9,
+        "best_epoch": 5,
+        "best_dev_mcc": 0.584920634920635,
+        "training_mode": "cached_frozen",
+        "train_seconds": 9.20007059990894,
+        "dev_seconds": 2.029155900119804,
+        "epoch_wall_seconds_total": 11.2455960001098,
+        "mean_train_epoch_seconds": 1.022230066656549,
+        "peak_memory": {
+          "allocated_mib": 1957.8271484375,
+          "reserved_mib": 2006.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "b2e89ec8b66d5b7bad3e70dac879b574d5968a53eeac651343d5ba783e8071ab",
+      "prediction_sha256": "c4b92aeec73b0d7aa40832ff188bedd39b78e2892525d84502a7f19182c1cc51"
+    },
+    {
+      "fold": 2,
+      "model": "fno",
+      "seed": 44,
+      "metrics": {
+        "accuracy": 0.9454646633277685,
+        "f1": 0.20967741935483872,
+        "mcc": 0.20910447241938493,
+        "roc_auc": 0.7750539431097544,
+        "pr_auc": 0.2376933934324218,
+        "average_precision": 0.24124455734818057,
+        "macro_auroc": 0.7204217757749047,
+        "macro_ap": 0.6315463252681537,
+        "macro_ap_lift": 0.3367242209878451,
+        "macro_top1": 0.5882352941176471,
+        "matched_concordance": 0.512962962962963
+      },
+      "seconds": 0.15066310006659478,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "fno",
+          "seed": 44,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold2\\trials\\fno_seed44_lr0.001",
+        "trainable_params": 235587,
+        "head_initial_sha256": "18e2863d351f91a29c331ffe9dfeea2bb792d4b62fb040931ed2e8bda3266c43",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 20,
+        "best_epoch": 16,
+        "best_dev_mcc": 0.6861111111111111,
+        "training_mode": "cached_frozen",
+        "train_seconds": 20.0363064998528,
+        "dev_seconds": 4.436755099799484,
+        "epoch_wall_seconds_total": 24.517244599875994,
+        "mean_train_epoch_seconds": 1.00181532499264,
+        "peak_memory": {
+          "allocated_mib": 1957.8271484375,
+          "reserved_mib": 2006.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "c6d62bd8cf090fa7c0321f2b98cf55e4cb444250a6776c097d627206290051f2",
+      "prediction_sha256": "359852c09ef8611926d38e397a232624ec928a6bd89731aa200eb1df6476abc8"
+    },
+    {
+      "fold": 3,
+      "model": "mlp",
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.8557620817843866,
+        "f1": 0.17796610169491525,
+        "mcc": 0.15584079791397562,
+        "roc_auc": 0.729484576714855,
+        "pr_auc": 0.18690407684489194,
+        "average_precision": 0.18943169330290402,
+        "macro_auroc": 0.6332194085051037,
+        "macro_ap": 0.52989991766697,
+        "macro_ap_lift": 0.23440184997360997,
+        "macro_top1": 0.34615384615384615,
+        "matched_concordance": 0.557936507936508
+      },
+      "seconds": 0.21172109991312027,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "mlp",
+          "seed": 42,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold3\\trials\\mlp_seed42_lr0.001",
+        "trainable_params": 238160,
+        "head_initial_sha256": "9c1672b62849ddc481076406acb58fda36426048e4a2f0174397bef2d3235fe6",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 5,
+        "best_epoch": 1,
+        "best_dev_mcc": 0.7037037037037037,
+        "training_mode": "cached_frozen",
+        "train_seconds": 4.914402200141922,
+        "dev_seconds": 0.8040783000178635,
+        "epoch_wall_seconds_total": 5.724660399835557,
+        "mean_train_epoch_seconds": 0.9828804400283844,
+        "peak_memory": {
+          "allocated_mib": 1959.36181640625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "5a01b9d044963184b4b2704d077f2af5581f90250d540ed76c4be872129cddfb",
+      "prediction_sha256": "62fd234eb36a08741dffe49f73395eb8e4888e4f9e249867f6196cbb59e9e5bf"
+    },
+    {
+      "fold": 3,
+      "model": "mlp",
+      "seed": 43,
+      "metrics": {
+        "accuracy": 0.6695167286245353,
+        "f1": 0.1668228678537957,
+        "mcc": 0.20822358110125969,
+        "roc_auc": 0.8317902611696114,
+        "pr_auc": 0.2159888584471425,
+        "average_precision": 0.22173084523980174,
+        "macro_auroc": 0.7449540253146478,
+        "macro_ap": 0.6537094588623267,
+        "macro_ap_lift": 0.3582113911689667,
+        "macro_top1": 0.5,
+        "matched_concordance": 0.6162698412698412
+      },
+      "seconds": 0.21327339997515082,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "mlp",
+          "seed": 43,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold3\\trials\\mlp_seed43_lr0.001",
+        "trainable_params": 238160,
+        "head_initial_sha256": "03ca9381ffddd640a1c30fa64cf645158296d7018e26c2870b253f919b853033",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 14,
+        "best_epoch": 10,
+        "best_dev_mcc": 0.7777777777777777,
+        "training_mode": "cached_frozen",
+        "train_seconds": 13.713538199779578,
+        "dev_seconds": 2.248492099926807,
+        "epoch_wall_seconds_total": 15.984607199789025,
+        "mean_train_epoch_seconds": 0.9795384428413983,
+        "peak_memory": {
+          "allocated_mib": 1959.36181640625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "c2e65f80cfb0fe2eae10b3332cf99f1a2e5e597b6fabd2c3687ac0ad28909ca3",
+      "prediction_sha256": "33b3c9095bd2901b8983bff5a7556ef7988377e703d4fbf7feaedf5f8cb8e671"
+    },
+    {
+      "fold": 3,
+      "model": "mlp",
+      "seed": 44,
+      "metrics": {
+        "accuracy": 0.48438661710037173,
+        "f1": 0.09049180327868853,
+        "mcc": 0.05431648259174646,
+        "roc_auc": 0.6355616782675947,
+        "pr_auc": 0.1264634263125667,
+        "average_precision": 0.12870097795973431,
+        "macro_auroc": 0.6087393850278044,
+        "macro_ap": 0.5127252484476771,
+        "macro_ap_lift": 0.21722718075431716,
+        "macro_top1": 0.3076923076923077,
+        "matched_concordance": 0.4722222222222222
+      },
+      "seconds": 0.212941600009799,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "mlp",
+          "seed": 44,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold3\\trials\\mlp_seed44_lr0.001",
+        "trainable_params": 238160,
+        "head_initial_sha256": "18e2863d351f91a29c331ffe9dfeea2bb792d4b62fb040931ed2e8bda3266c43",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 5,
+        "best_epoch": 1,
+        "best_dev_mcc": 0.6481481481481481,
+        "training_mode": "cached_frozen",
+        "train_seconds": 4.927522099809721,
+        "dev_seconds": 0.7947723997058347,
+        "epoch_wall_seconds_total": 5.728301700204611,
+        "mean_train_epoch_seconds": 0.9855044199619443,
+        "peak_memory": {
+          "allocated_mib": 1959.36181640625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "3dfa58d3d58aef002d9229151f1dd4f70f3a83eb0a1351f8b22573dd45b50740",
+      "prediction_sha256": "9dc8b8cc1062b3199c9857d363db174e0281fdd4f812f043429c9f2b27ab4ca4"
+    },
+    {
+      "fold": 3,
+      "model": "cnn",
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.6408921933085502,
+        "f1": 0.14513274336283186,
+        "mcc": 0.16805480429903363,
+        "roc_auc": 0.7905642066749956,
+        "pr_auc": 0.23620814199086468,
+        "average_precision": 0.23901053221877455,
+        "macro_auroc": 0.679408704934981,
+        "macro_ap": 0.6068203420788261,
+        "macro_ap_lift": 0.3113222743854662,
+        "macro_top1": 0.5,
+        "matched_concordance": 0.5587301587301587
+      },
+      "seconds": 0.21571789996232837,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "cnn",
+          "seed": 42,
+          "lr": 0.0003
+        },
+        "path": "runs\\matched_cv\\fold3\\trials\\cnn_seed42_lr0.0003",
+        "trainable_params": 237921,
+        "head_initial_sha256": "9c1672b62849ddc481076406acb58fda36426048e4a2f0174397bef2d3235fe6",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 7,
+        "best_epoch": 3,
+        "best_dev_mcc": 0.7037037037037037,
+        "training_mode": "cached_frozen",
+        "train_seconds": 7.228067500051111,
+        "dev_seconds": 1.1068487998563796,
+        "epoch_wall_seconds_total": 8.34574580017943,
+        "mean_train_epoch_seconds": 1.032581071435873,
+        "peak_memory": {
+          "allocated_mib": 1957.86572265625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "c5ed17f04025218a7f5f6559539d9df795b555bce7918e3fd6bd01ff3d4fa7f9",
+      "prediction_sha256": "8cc51a81009f6bf9fd9889ac9028d05935f3157e3d19f3c986882c211fa9c1d5"
+    },
+    {
+      "fold": 3,
+      "model": "cnn",
+      "seed": 43,
+      "metrics": {
+        "accuracy": 0.708550185873606,
+        "f1": 0.16059957173447537,
+        "mcc": 0.17913986699908135,
+        "roc_auc": 0.7955076149681718,
+        "pr_auc": 0.2312221748738783,
+        "average_precision": 0.2346946419770302,
+        "macro_auroc": 0.7229214705014374,
+        "macro_ap": 0.6218298981075218,
+        "macro_ap_lift": 0.3263318304141619,
+        "macro_top1": 0.5,
+        "matched_concordance": 0.42738095238095236
+      },
+      "seconds": 0.2154430999653414,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "cnn",
+          "seed": 43,
+          "lr": 0.0003
+        },
+        "path": "runs\\matched_cv\\fold3\\trials\\cnn_seed43_lr0.0003",
+        "trainable_params": 237921,
+        "head_initial_sha256": "03ca9381ffddd640a1c30fa64cf645158296d7018e26c2870b253f919b853033",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 9,
+        "best_epoch": 5,
+        "best_dev_mcc": 0.7407407407407407,
+        "training_mode": "cached_frozen",
+        "train_seconds": 9.355097799794748,
+        "dev_seconds": 1.4322187998332083,
+        "epoch_wall_seconds_total": 10.80338530021254,
+        "mean_train_epoch_seconds": 1.0394553110883054,
+        "peak_memory": {
+          "allocated_mib": 1957.86572265625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "ee7b732266c01b2c5508fa883b4880a48fb1cd812eb31854176cc31ea27bba52",
+      "prediction_sha256": "893f4e82d7d5c9bd734de399358340c4d4d12a7c35cf394f9bdf599ca310eec6"
+    },
+    {
+      "fold": 3,
+      "model": "cnn",
+      "seed": 44,
+      "metrics": {
+        "accuracy": 0.6501858736059479,
+        "f1": 0.14995483288166214,
+        "mcc": 0.17634157533187694,
+        "roc_auc": 0.797524763519543,
+        "pr_auc": 0.22498987339453616,
+        "average_precision": 0.2271702174272937,
+        "macro_auroc": 0.6732396140805257,
+        "macro_ap": 0.6075330657888645,
+        "macro_ap_lift": 0.3120349980955045,
+        "macro_top1": 0.5,
+        "matched_concordance": 0.444047619047619
+      },
+      "seconds": 0.21260249998886138,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "cnn",
+          "seed": 44,
+          "lr": 0.0003
+        },
+        "path": "runs\\matched_cv\\fold3\\trials\\cnn_seed44_lr0.0003",
+        "trainable_params": 237921,
+        "head_initial_sha256": "18e2863d351f91a29c331ffe9dfeea2bb792d4b62fb040931ed2e8bda3266c43",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 9,
+        "best_epoch": 5,
+        "best_dev_mcc": 0.7777777777777777,
+        "training_mode": "cached_frozen",
+        "train_seconds": 9.257385799544863,
+        "dev_seconds": 1.4047477999702096,
+        "epoch_wall_seconds_total": 10.681458899984136,
+        "mean_train_epoch_seconds": 1.0285984221716515,
+        "peak_memory": {
+          "allocated_mib": 1957.86572265625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "32319955058ef86db0b302828c07040596d085809e6e2cb56db9b564527ab18e",
+      "prediction_sha256": "3d0c225e6c5e8c2d196095498a5cd401abb282a91285f8375dd27986cb75901d"
+    },
+    {
+      "fold": 3,
+      "model": "fno",
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.8133828996282528,
+        "f1": 0.19032258064516128,
+        "mcc": 0.19124670840537467,
+        "roc_auc": 0.8151808554940805,
+        "pr_auc": 0.23495699838290193,
+        "average_precision": 0.23735760423017374,
+        "macro_auroc": 0.7465003786408424,
+        "macro_ap": 0.6450217901007225,
+        "macro_ap_lift": 0.3495237224073625,
+        "macro_top1": 0.5,
+        "matched_concordance": 0.4357142857142857
+      },
+      "seconds": 0.22035229997709394,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "fno",
+          "seed": 42,
+          "lr": 0.0003
+        },
+        "path": "runs\\matched_cv\\fold3\\trials\\fno_seed42_lr0.0003",
+        "trainable_params": 235587,
+        "head_initial_sha256": "9c1672b62849ddc481076406acb58fda36426048e4a2f0174397bef2d3235fe6",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 10,
+        "best_epoch": 6,
+        "best_dev_mcc": 0.7592592592592592,
+        "training_mode": "cached_frozen",
+        "train_seconds": 9.959976799669676,
+        "dev_seconds": 1.5828215001383796,
+        "epoch_wall_seconds_total": 11.562847999972291,
+        "mean_train_epoch_seconds": 0.9959976799669675,
+        "peak_memory": {
+          "allocated_mib": 1957.8271484375,
+          "reserved_mib": 2002.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "33e577d9423a32434623226fb8290b19fde149c08dc561b63825fa1c44990f2c",
+      "prediction_sha256": "194bd854c85413222cdf5aef63368b721441a302980861db51633cc5c7b88b4f"
+    },
+    {
+      "fold": 3,
+      "model": "fno",
+      "seed": 43,
+      "metrics": {
+        "accuracy": 0.9576208178438662,
+        "f1": 0.17391304347826086,
+        "mcc": 0.18444325605764667,
+        "roc_auc": 0.67803520435481,
+        "pr_auc": 0.1409251796966824,
+        "average_precision": 0.14331349609437133,
+        "macro_auroc": 0.6702381659356612,
+        "macro_ap": 0.5936422295417596,
+        "macro_ap_lift": 0.2981441618483996,
+        "macro_top1": 0.46153846153846156,
+        "matched_concordance": 0.37539682539682545
+      },
+      "seconds": 0.22097929997835308,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "fno",
+          "seed": 43,
+          "lr": 0.0003
+        },
+        "path": "runs\\matched_cv\\fold3\\trials\\fno_seed43_lr0.0003",
+        "trainable_params": 235587,
+        "head_initial_sha256": "03ca9381ffddd640a1c30fa64cf645158296d7018e26c2870b253f919b853033",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 5,
+        "best_epoch": 1,
+        "best_dev_mcc": 0.7037037037037037,
+        "training_mode": "cached_frozen",
+        "train_seconds": 5.0263222000794485,
+        "dev_seconds": 0.7882285000523552,
+        "epoch_wall_seconds_total": 5.820144500117749,
+        "mean_train_epoch_seconds": 1.0052644400158897,
+        "peak_memory": {
+          "allocated_mib": 1957.8271484375,
+          "reserved_mib": 2002.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "4a5043c3eb1a0a9f0ee8a38c63980bda51875d47902732c6b930b7880eb16a51",
+      "prediction_sha256": "49c8e1411ad19087439c39f8e743530ac44edbd13bd62853ea68617d248441ed"
+    },
+    {
+      "fold": 3,
+      "model": "fno",
+      "seed": 44,
+      "metrics": {
+        "accuracy": 0.6680297397769517,
+        "f1": 0.14217098943323728,
+        "mcc": 0.15288093006695705,
+        "roc_auc": 0.7447163721815695,
+        "pr_auc": 0.1900058334675772,
+        "average_precision": 0.19155830312220068,
+        "macro_auroc": 0.6676610472012936,
+        "macro_ap": 0.5943039318003606,
+        "macro_ap_lift": 0.2988058641070006,
+        "macro_top1": 0.5,
+        "matched_concordance": 0.5547619047619047
+      },
+      "seconds": 0.22289350000210106,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "fno",
+          "seed": 44,
+          "lr": 0.0003
+        },
+        "path": "runs\\matched_cv\\fold3\\trials\\fno_seed44_lr0.0003",
+        "trainable_params": 235587,
+        "head_initial_sha256": "18e2863d351f91a29c331ffe9dfeea2bb792d4b62fb040931ed2e8bda3266c43",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 6,
+        "best_epoch": 2,
+        "best_dev_mcc": 0.6481481481481481,
+        "training_mode": "cached_frozen",
+        "train_seconds": 6.005520800128579,
+        "dev_seconds": 0.9560982001712546,
+        "epoch_wall_seconds_total": 6.971544400090352,
+        "mean_train_epoch_seconds": 1.0009201333547633,
+        "peak_memory": {
+          "allocated_mib": 1957.8271484375,
+          "reserved_mib": 2002.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "3ed9622abc9526069984cb9a92b0af17e8376b0f5351d310f96df427c8076e6f",
+      "prediction_sha256": "45b2ca77cd061350f9e52af3ed7e9cb0b2fbefe5f5d6eddb8d48044f34012f31"
+    },
+    {
+      "fold": 4,
+      "model": "mlp",
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.8953560371517028,
+        "f1": 0.19138755980861244,
+        "mcc": 0.13983306393399575,
+        "roc_auc": 0.7517764118659953,
+        "pr_auc": 0.1841963660097865,
+        "average_precision": 0.18807877723101502,
+        "macro_auroc": 0.6689115646258504,
+        "macro_ap": 0.7039806225520511,
+        "macro_ap_lift": 0.34881753167467455,
+        "macro_top1": 0.5428571428571428,
+        "matched_concordance": 0.5925925925925926
+      },
+      "seconds": 0.155686300015077,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "mlp",
+          "seed": 42,
+          "lr": 0.0003
+        },
+        "path": "runs\\matched_cv\\fold4\\trials\\mlp_seed42_lr0.0003",
+        "trainable_params": 238160,
+        "head_initial_sha256": "9c1672b62849ddc481076406acb58fda36426048e4a2f0174397bef2d3235fe6",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 5,
+        "best_epoch": 1,
+        "best_dev_mcc": 0.6991419074752409,
+        "training_mode": "cached_frozen",
+        "train_seconds": 4.665626299916767,
+        "dev_seconds": 0.9707911999430507,
+        "epoch_wall_seconds_total": 5.642222800059244,
+        "mean_train_epoch_seconds": 0.9331252599833533,
+        "peak_memory": {
+          "allocated_mib": 1959.36181640625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "7a0e298c7208094a1b4eb26a3636e2dd0f378a5f968d8b9a4f3f38e8620f3b4d",
+      "prediction_sha256": "26bbfc0fc70dc4491bfa010c79eec33fe2de9211f4f72b90aa8330a69737eca1"
+    },
+    {
+      "fold": 4,
+      "model": "mlp",
+      "seed": 43,
+      "metrics": {
+        "accuracy": 0.6681114551083591,
+        "f1": 0.26975476839237056,
+        "mcc": 0.25253584385620376,
+        "roc_auc": 0.7872419843501384,
+        "pr_auc": 0.2138184208379766,
+        "average_precision": 0.2176324415699099,
+        "macro_auroc": 0.6815873015873015,
+        "macro_ap": 0.6987074829931972,
+        "macro_ap_lift": 0.3435443921158207,
+        "macro_top1": 0.5428571428571428,
+        "matched_concordance": 0.537037037037037
+      },
+      "seconds": 0.1558434999315068,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "mlp",
+          "seed": 43,
+          "lr": 0.0003
+        },
+        "path": "runs\\matched_cv\\fold4\\trials\\mlp_seed43_lr0.0003",
+        "trainable_params": 238160,
+        "head_initial_sha256": "03ca9381ffddd640a1c30fa64cf645158296d7018e26c2870b253f919b853033",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 6,
+        "best_epoch": 2,
+        "best_dev_mcc": 0.7462691629358296,
+        "training_mode": "cached_frozen",
+        "train_seconds": 5.5449928001035005,
+        "dev_seconds": 1.1563522999640554,
+        "epoch_wall_seconds_total": 6.711055099964142,
+        "mean_train_epoch_seconds": 0.9241654666839167,
+        "peak_memory": {
+          "allocated_mib": 1959.36181640625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "92141fcc958041d5a3bd8c63df769f51db3273b53b94f3ded94f7a6e2137b74a",
+      "prediction_sha256": "80d524bb9744e4283ea90907f95c709c4c25d16f02d2e40387a0d39d266982bf"
+    },
+    {
+      "fold": 4,
+      "model": "mlp",
+      "seed": 44,
+      "metrics": {
+        "accuracy": 0.49907120743034056,
+        "f1": 0.20763956904995104,
+        "mcc": 0.17668979747878125,
+        "roc_auc": 0.7810163691449247,
+        "pr_auc": 0.216356340349828,
+        "average_precision": 0.22000969955497202,
+        "macro_auroc": 0.6597278911564626,
+        "macro_ap": 0.6862028447742734,
+        "macro_ap_lift": 0.33103975389689677,
+        "macro_top1": 0.5428571428571428,
+        "matched_concordance": 0.4074074074074074
+      },
+      "seconds": 0.15729559992905706,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "mlp",
+          "seed": 44,
+          "lr": 0.0003
+        },
+        "path": "runs\\matched_cv\\fold4\\trials\\mlp_seed44_lr0.0003",
+        "trainable_params": 238160,
+        "head_initial_sha256": "18e2863d351f91a29c331ffe9dfeea2bb792d4b62fb040931ed2e8bda3266c43",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 5,
+        "best_epoch": 1,
+        "best_dev_mcc": 0.6655813322479989,
+        "training_mode": "cached_frozen",
+        "train_seconds": 4.72687030013185,
+        "dev_seconds": 0.9872035001171753,
+        "epoch_wall_seconds_total": 5.720415399875492,
+        "mean_train_epoch_seconds": 0.94537406002637,
+        "peak_memory": {
+          "allocated_mib": 1959.36181640625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "637d5a01475a4d8a86ddf9bb6bb3dbcdc8afeca5e3159b2e510719fc3b4c5743",
+      "prediction_sha256": "4c001ba800ef787ec05351501def26bcb1a7174a8d58357425eafb73d8045456"
+    },
+    {
+      "fold": 4,
+      "model": "cnn",
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.886687306501548,
+        "f1": 0.1643835616438356,
+        "mcc": 0.10552118059104135,
+        "roc_auc": 0.7372708646657513,
+        "pr_auc": 0.16378220389436743,
+        "average_precision": 0.16756341676990427,
+        "macro_auroc": 0.6670068027210885,
+        "macro_ap": 0.6944568130282416,
+        "macro_ap_lift": 0.33929372215086506,
+        "macro_top1": 0.5142857142857142,
+        "matched_concordance": 0.537037037037037
+      },
+      "seconds": 0.15869179996661842,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "cnn",
+          "seed": 42,
+          "lr": 0.0003
+        },
+        "path": "runs\\matched_cv\\fold4\\trials\\cnn_seed42_lr0.0003",
+        "trainable_params": 237921,
+        "head_initial_sha256": "9c1672b62849ddc481076406acb58fda36426048e4a2f0174397bef2d3235fe6",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 5,
+        "best_epoch": 1,
+        "best_dev_mcc": 0.6991419074752409,
+        "training_mode": "cached_frozen",
+        "train_seconds": 5.077940599992871,
+        "dev_seconds": 0.9930639000376686,
+        "epoch_wall_seconds_total": 6.0769372000359,
+        "mean_train_epoch_seconds": 1.0155881199985743,
+        "peak_memory": {
+          "allocated_mib": 1957.86572265625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "c18634d49eb23e9086ab41ea657df6f89d64e999ef123ec67dba3d6083a463ec",
+      "prediction_sha256": "0a9b33638d0716771995857c568bd3b59f667c5bc7fd297f1f5655aced22eb4f"
+    },
+    {
+      "fold": 4,
+      "model": "cnn",
+      "seed": 43,
+      "metrics": {
+        "accuracy": 0.7820433436532508,
+        "f1": 0.3230769230769231,
+        "mcc": 0.29148011655266437,
+        "roc_auc": 0.7835093397850869,
+        "pr_auc": 0.21792149976229624,
+        "average_precision": 0.2222953080512856,
+        "macro_auroc": 0.6858049886621315,
+        "macro_ap": 0.6986734693877551,
+        "macro_ap_lift": 0.3435103785103785,
+        "macro_top1": 0.5428571428571428,
+        "matched_concordance": 0.6111111111111112
+      },
+      "seconds": 0.15550140000414103,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "cnn",
+          "seed": 43,
+          "lr": 0.0003
+        },
+        "path": "runs\\matched_cv\\fold4\\trials\\cnn_seed43_lr0.0003",
+        "trainable_params": 237921,
+        "head_initial_sha256": "03ca9381ffddd640a1c30fa64cf645158296d7018e26c2870b253f919b853033",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 6,
+        "best_epoch": 2,
+        "best_dev_mcc": 0.7092321258987925,
+        "training_mode": "cached_frozen",
+        "train_seconds": 5.975455700070597,
+        "dev_seconds": 1.1827426999807358,
+        "epoch_wall_seconds_total": 7.1687941999407485,
+        "mean_train_epoch_seconds": 0.9959092833450995,
+        "peak_memory": {
+          "allocated_mib": 1957.86572265625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "a2d0f8eb23a93d1c96884da1d6b00db19ce0177f49c35d62eebf31e4c1eedeb2",
+      "prediction_sha256": "15a2dae952818fe89750b5a895f2133fae425ce7884926af7685d6a51c3a6319"
+    },
+    {
+      "fold": 4,
+      "model": "cnn",
+      "seed": 44,
+      "metrics": {
+        "accuracy": 0.551702786377709,
+        "f1": 0.22317596566523606,
+        "mcc": 0.19788539272686453,
+        "roc_auc": 0.775676235314632,
+        "pr_auc": 0.21227576066606313,
+        "average_precision": 0.21641589427175703,
+        "macro_auroc": 0.6298639455782313,
+        "macro_ap": 0.6907558578987151,
+        "macro_ap_lift": 0.3355927670213385,
+        "macro_top1": 0.5428571428571428,
+        "matched_concordance": 0.48148148148148145
+      },
+      "seconds": 0.15732539992313832,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "cnn",
+          "seed": 44,
+          "lr": 0.0003
+        },
+        "path": "runs\\matched_cv\\fold4\\trials\\cnn_seed44_lr0.0003",
+        "trainable_params": 237921,
+        "head_initial_sha256": "18e2863d351f91a29c331ffe9dfeea2bb792d4b62fb040931ed2e8bda3266c43",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 5,
+        "best_epoch": 1,
+        "best_dev_mcc": 0.6867962284628951,
+        "training_mode": "cached_frozen",
+        "train_seconds": 4.908933800063096,
+        "dev_seconds": 0.9949442998040468,
+        "epoch_wall_seconds_total": 5.909982099896297,
+        "mean_train_epoch_seconds": 0.9817867600126192,
+        "peak_memory": {
+          "allocated_mib": 1957.86572265625,
+          "reserved_mib": 2004.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "d71d26fe7f204951b0a14e8a149d14efc5715a1b1a6edc432ca467c7d03e7b9c",
+      "prediction_sha256": "575f145287da0bd70c52c84aa6757983dad27d9db685ed0582f25729ef07e1e3"
+    },
+    {
+      "fold": 4,
+      "model": "fno",
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.8191950464396285,
+        "f1": 0.27,
+        "mcc": 0.20375509101734843,
+        "roc_auc": 0.7371755051330675,
+        "pr_auc": 0.19461152017564992,
+        "average_precision": 0.20062200828019386,
+        "macro_auroc": 0.617687074829932,
+        "macro_ap": 0.6701937744794887,
+        "macro_ap_lift": 0.31503068360211217,
+        "macro_top1": 0.5285714285714286,
+        "matched_concordance": 0.45370370370370366
+      },
+      "seconds": 0.16105059999972582,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "fno",
+          "seed": 42,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold4\\trials\\fno_seed42_lr0.001",
+        "trainable_params": 235587,
+        "head_initial_sha256": "9c1672b62849ddc481076406acb58fda36426048e4a2f0174397bef2d3235fe6",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 5,
+        "best_epoch": 1,
+        "best_dev_mcc": 0.6645977479310813,
+        "training_mode": "cached_frozen",
+        "train_seconds": 5.282392500084825,
+        "dev_seconds": 1.0394683999475092,
+        "epoch_wall_seconds_total": 6.328258500085212,
+        "mean_train_epoch_seconds": 1.056478500016965,
+        "peak_memory": {
+          "allocated_mib": 1957.8271484375,
+          "reserved_mib": 2002.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "7894b9842cf870815c1f3f9e3e01d58d558ddeac5ee6404deef05f0e0d946290",
+      "prediction_sha256": "abebcfbb267d5aa84795e34bb24b96bc2368481e882f82643f5811b6b4f40091"
+    },
+    {
+      "fold": 4,
+      "model": "fno",
+      "seed": 43,
+      "metrics": {
+        "accuracy": 0.8780185758513932,
+        "f1": 0.28363636363636363,
+        "mcc": 0.21923755505028364,
+        "roc_auc": 0.7637154253580068,
+        "pr_auc": 0.2040090873034911,
+        "average_precision": 0.20756941891003028,
+        "macro_auroc": 0.651156462585034,
+        "macro_ap": 0.6913832199546485,
+        "macro_ap_lift": 0.3362201290772719,
+        "macro_top1": 0.5142857142857142,
+        "matched_concordance": 0.5925925925925926
+      },
+      "seconds": 0.1616294999839738,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "fno",
+          "seed": 43,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold4\\trials\\fno_seed43_lr0.001",
+        "trainable_params": 235587,
+        "head_initial_sha256": "03ca9381ffddd640a1c30fa64cf645158296d7018e26c2870b253f919b853033",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 5,
+        "best_epoch": 1,
+        "best_dev_mcc": 0.7110127526794194,
+        "training_mode": "cached_frozen",
+        "train_seconds": 5.251203300082125,
+        "dev_seconds": 1.039771500043571,
+        "epoch_wall_seconds_total": 6.297215900034644,
+        "mean_train_epoch_seconds": 1.050240660016425,
+        "peak_memory": {
+          "allocated_mib": 1957.8271484375,
+          "reserved_mib": 2002.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "25f51ddd4a53d3e73cbc105f52ddbf41704f08d60351aeba4441fd6d03db4d2d",
+      "prediction_sha256": "76a8c4025ad4fe9ddcf8da8a3308ce84180fd15fe1041d29f3f993dbf5b552ef"
+    },
+    {
+      "fold": 4,
+      "model": "fno",
+      "seed": 44,
+      "metrics": {
+        "accuracy": 0.8117647058823529,
+        "f1": 0.3059360730593607,
+        "mcc": 0.2533791405113124,
+        "roc_auc": 0.7720934414437979,
+        "pr_auc": 0.2124517373103019,
+        "average_precision": 0.2164278898429955,
+        "macro_auroc": 0.6431972789115646,
+        "macro_ap": 0.6884807256235828,
+        "macro_ap_lift": 0.3333176347462062,
+        "macro_top1": 0.5142857142857142,
+        "matched_concordance": 0.5925925925925926
+      },
+      "seconds": 0.1602261000080034,
+      "training": {
+        "settings": {
+          "study_id": "5baae40be4cfbab57276ebe582cbb7f8acb1da8b98dc576b0faf5c74f6979ce9",
+          "variant": "fno",
+          "seed": 44,
+          "lr": 0.001
+        },
+        "path": "runs\\matched_cv\\fold4\\trials\\fno_seed44_lr0.001",
+        "trainable_params": 235587,
+        "head_initial_sha256": "18e2863d351f91a29c331ffe9dfeea2bb792d4b62fb040931ed2e8bda3266c43",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 5,
+        "best_epoch": 1,
+        "best_dev_mcc": 0.6228123728123728,
+        "training_mode": "cached_frozen",
+        "train_seconds": 5.32129019999411,
+        "dev_seconds": 1.046794000081718,
+        "epoch_wall_seconds_total": 6.374178000027314,
+        "mean_train_epoch_seconds": 1.064258039998822,
+        "peak_memory": {
+          "allocated_mib": 1957.8271484375,
+          "reserved_mib": 2002.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "2e09086365c168749d388dca748fb1e6a5891dfded0188ed03610cd8da004c72",
+      "prediction_sha256": "fc580a0b94f9b423d37b5c0e76a581a7e69dfdffc717312113f53be4621a8c81"
+    },
+    {
+      "fold": 0,
+      "model": "distance",
+      "seed": null,
+      "metrics": {
+        "accuracy": 0.8231159703240921,
+        "f1": 0.21490467937608318,
+        "mcc": 0.2921797530889487,
+        "roc_auc": 0.8938341824272454,
+        "pr_auc": 0.4382607882282568,
+        "average_precision": 0.4422248802876621,
+        "macro_auroc": 0.8284851222735512,
+        "macro_ap": 0.6984966833781063,
+        "macro_ap_lift": 0.5082487333851372,
+        "macro_top1": 0.6363636363636364,
+        "matched_concordance": 0.6658187491520824
+      },
+      "prediction_sha256": "ddf380a745b852c03c0f5177cd108ab6c0f910aa9a80d5518b89d9b197574f13",
+      "checkpoint_sha256": "3d8095fc8880677090ad2afd7e519caeac99b1edc3a6ce5084b27a21a6e441d4"
+    },
+    {
+      "fold": 1,
+      "model": "distance",
+      "seed": null,
+      "metrics": {
+        "accuracy": 0.8782608695652174,
+        "f1": 0.3950617283950617,
+        "mcc": 0.40139754620790996,
+        "roc_auc": 0.8924358727097397,
+        "pr_auc": 0.36981619081143785,
+        "average_precision": 0.3758131415374945,
+        "macro_auroc": 0.7891664034810684,
+        "macro_ap": 0.7029085803775245,
+        "macro_ap_lift": 0.3816068973870246,
+        "macro_top1": 0.5652173913043478,
+        "matched_concordance": 0.7137566137566138
+      },
+      "prediction_sha256": "2b5f517ea701618eaa2a1d9e08d285f6aef2cbe7b8f935fbf6c766af520bca2a",
+      "checkpoint_sha256": "698a4f048668f9d53a2a739e3717cc06b1f0dbb03cdc141e4900233d180561ba"
+    },
+    {
+      "fold": 2,
+      "model": "distance",
+      "seed": null,
+      "metrics": {
+        "accuracy": 0.8363939899833055,
+        "f1": 0.31627906976744186,
+        "mcc": 0.3343244678633128,
+        "roc_auc": 0.8510249190853354,
+        "pr_auc": 0.4103235604875769,
+        "average_precision": 0.41402256798380305,
+        "macro_auroc": 0.8411819668831494,
+        "macro_ap": 0.7276168713446727,
+        "macro_ap_lift": 0.4327947670643641,
+        "macro_top1": 0.5882352941176471,
+        "matched_concordance": 0.5925925925925926
+      },
+      "prediction_sha256": "a38f96afe4a1fea2845d8ad1855700110d5eb5f92c71a137f7702235b03761a6",
+      "checkpoint_sha256": "c0e8b533ddce69cfef0cfda20cde466bc6507becd26bbf01e175115b8497d444"
+    },
+    {
+      "fold": 3,
+      "model": "distance",
+      "seed": null,
+      "metrics": {
+        "accuracy": 0.9055762081784386,
+        "f1": 0.40375586854460094,
+        "mcc": 0.43690873740784236,
+        "roc_auc": 0.9226902254744482,
+        "pr_auc": 0.5048406019790079,
+        "average_precision": 0.5078570684067993,
+        "macro_auroc": 0.7846301127549992,
+        "macro_ap": 0.7220723364954134,
+        "macro_ap_lift": 0.42657426880205346,
+        "macro_top1": 0.6153846153846154,
+        "matched_concordance": 0.5551587301587301
+      },
+      "prediction_sha256": "0192db1c741bb2a16a6606ead6468af4d0b3a95f17f6de11020af23332e8163b",
+      "checkpoint_sha256": "2512446a22adcdf251e144621ee6511c6875378c434d24e0970f8716af6f737c"
+    },
+    {
+      "fold": 4,
+      "model": "distance",
+      "seed": null,
+      "metrics": {
+        "accuracy": 0.8383900928792569,
+        "f1": 0.43383947939262474,
+        "mcc": 0.4261108399219771,
+        "roc_auc": 0.8994965016674296,
+        "pr_auc": 0.43664902903575464,
+        "average_precision": 0.4430202729574155,
+        "macro_auroc": 0.868095238095238,
+        "macro_ap": 0.8256132756132756,
+        "macro_ap_lift": 0.47045018473589906,
+        "macro_top1": 0.7142857142857143,
+        "matched_concordance": 0.6296296296296297
+      },
+      "prediction_sha256": "29a4cd6ce9736f13f4d130eda79e0da9bcd35382d247e4eb9ae78a82da167234",
+      "checkpoint_sha256": "1d2117b3da3ed6cf12f5fcafd53f2bf2ce808b91a5c5192e6d18a03be9fe3c02"
+    }
+  ]
+}

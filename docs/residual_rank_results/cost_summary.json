@@ -1,0 +1,59 @@
+{
+  "models": {
+    "pointwise_mlp": {
+      "trials": 15,
+      "params": [
+        238031
+      ],
+      "epochs": 215,
+      "fit_seconds_including_dev": 16.350934299989603,
+      "peak_allocated_mib": 1960.19775390625
+    },
+    "pairwise_mlp": {
+      "trials": 15,
+      "params": [
+        238031
+      ],
+      "epochs": 182,
+      "fit_seconds_including_dev": 13.689067099941894,
+      "peak_allocated_mib": 1960.19775390625
+    },
+    "pointwise_cnn": {
+      "trials": 15,
+      "params": [
+        237792
+      ],
+      "epochs": 208,
+      "fit_seconds_including_dev": 17.242763699847274,
+      "peak_allocated_mib": 1957.86279296875
+    },
+    "pairwise_cnn": {
+      "trials": 15,
+      "params": [
+        237792
+      ],
+      "epochs": 184,
+      "fit_seconds_including_dev": 14.529801600263454,
+      "peak_allocated_mib": 1957.86279296875
+    },
+    "pointwise_fno": {
+      "trials": 15,
+      "params": [
+        235458
+      ],
+      "epochs": 210,
+      "fit_seconds_including_dev": 18.433022999903187,
+      "peak_allocated_mib": 1957.82421875
+    },
+    "pairwise_fno": {
+      "trials": 15,
+      "params": [
+        235458
+      ],
+      "epochs": 196,
+      "fit_seconds_including_dev": 15.821387499803677,
+      "peak_allocated_mib": 1957.82421875
+    }
+  },
+  "runner_seconds": 118.09202647209167
+}

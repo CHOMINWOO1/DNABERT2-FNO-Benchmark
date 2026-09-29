@@ -1,0 +1,15 @@
+{
+  "output_dir": "runs/epi_diagnostic",
+  "source_protocol": "runs/long_epi_pilot/protocol.json",
+  "fno_modes": [8, 16, 64],
+  "cnn_kernels": [3, 9, 17],
+  "learning_rates": [0.0001, 0.0003, 0.001],
+  "search_seeds": [42, 43],
+  "final_seeds": [42, 43, 44],
+  "target_trainable_parameters": 237571,
+  "epochs": 12,
+  "patience": 4,
+  "batch_size": 2,
+  "gradient_accumulation": 16,
+  "selection": "Mean best-dev MCC over search seeds; ties prefer smaller LR then smaller structure. Select mean-pooling architecture/LR once; hold fixed for attention-pooling comparison."
+}

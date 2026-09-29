@@ -1,0 +1,19 @@
+{
+  "data_dir": "data/crispr_matched_cv",
+  "output_dir": "runs/matched_cv",
+  "base_protocol": "runs/crispr_ranking/protocol.json",
+  "variants": ["mlp", "cnn", "fno"],
+  "folds": [0, 1, 2, 3, 4],
+  "learning_rates": [0.0001, 0.0003, 0.001],
+  "search_seeds": [42, 43],
+  "final_seeds": [42, 43, 44],
+  "epochs": 20,
+  "patience": 4,
+  "batch_size": 32,
+  "gradient_accumulation": 2,
+  "selection_metric": "matched_concordance",
+  "primary_distance_ratio": 1.25,
+  "sensitivity_ratios": [1.1, 1.5],
+  "bootstrap_repeats": 10000,
+  "bootstrap_seed": 20260918
+}

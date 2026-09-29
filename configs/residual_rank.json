@@ -1,0 +1,23 @@
+{
+  "data_dir": "data/crispr_matched_cv",
+  "prior_run": "runs/matched_cv",
+  "output_dir": "runs/residual_rank",
+  "variants": ["mlp", "cnn", "fno"],
+  "objectives": ["pointwise", "pairwise"],
+  "folds": [0, 1, 2, 3, 4],
+  "seeds": [42, 43, 44],
+  "lr": 0.0003,
+  "epochs": 40,
+  "patience": 8,
+  "min_delta": 0.0001,
+  "pair_batch_size": 16,
+  "gradient_accumulation": 2,
+  "weight_decay": 0.0001,
+  "dropout": 0.1,
+  "gammas": [0.0, 0.25, 0.5, 1.0],
+  "device": "cuda",
+  "precision": "bf16",
+  "primary_distance_ratio": 1.25,
+  "bootstrap_repeats": 10000,
+  "bootstrap_seed": 20260919
+}

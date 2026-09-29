@@ -1,0 +1,3859 @@
+{
+  "study_id": "27b1aa2e9de6d4842e028a1712f4134c122c1c6cec7a59dec8191c051511b922",
+  "selection": {
+    "fno": {
+      "arm": "fno_s64_lr0.0003",
+      "structure": 64,
+      "width": 37,
+      "lr": 0.0003,
+      "mean_best_dev_mcc": 0.18276366932334975
+    },
+    "cnn": {
+      "arm": "cnn_s17_lr0.0003",
+      "structure": 17,
+      "width": 79,
+      "lr": 0.0003,
+      "mean_best_dev_mcc": 0.1897567820019287
+    }
+  },
+  "summary": {
+    "previous_test": {
+      "cnn_attention": {
+        "accuracy": {
+          "mean": 0.5520833333333334,
+          "sd": 0.01578692142315383,
+          "per_seed": {
+            "42": 0.56640625,
+            "43": 0.53515625,
+            "44": 0.5546875
+          }
+        },
+        "f1": {
+          "mean": 0.4823444833665316,
+          "sd": 0.040135832197921543,
+          "per_seed": {
+            "42": 0.5066666666666667,
+            "43": 0.43601895734597157,
+            "44": 0.5043478260869565
+          }
+        },
+        "mcc": {
+          "mean": 0.10789947598515698,
+          "sd": 0.0310655519246575,
+          "per_seed": {
+            "42": 0.13688772067304905,
+            "43": 0.07510699937587428,
+            "44": 0.11170370790654759
+          }
+        },
+        "roc_auc": {
+          "mean": 0.569580078125,
+          "sd": 0.019964957868159966,
+          "per_seed": {
+            "42": 0.575469970703125,
+            "43": 0.547332763671875,
+            "44": 0.5859375
+          }
+        },
+        "pr_auc": {
+          "mean": 0.5783189495945525,
+          "sd": 0.013273005622153087,
+          "per_seed": {
+            "42": 0.5762087584045239,
+            "43": 0.5662274487440282,
+            "44": 0.5925206416351056
+          }
+        },
+        "average_precision": {
+          "mean": 0.5815178620014024,
+          "sd": 0.01374841124184971,
+          "per_seed": {
+            "42": 0.5797828493681629,
+            "43": 0.5687193114599927,
+            "44": 0.5960514251760516
+          }
+        }
+      },
+      "cnn_mean": {
+        "accuracy": {
+          "mean": 0.5546875,
+          "sd": 0.017026948998205758,
+          "per_seed": {
+            "42": 0.56640625,
+            "43": 0.53515625,
+            "44": 0.5625
+          }
+        },
+        "f1": {
+          "mean": 0.480737706846116,
+          "sd": 0.03998444352812336,
+          "per_seed": {
+            "42": 0.4931506849315068,
+            "43": 0.43601895734597157,
+            "44": 0.5130434782608696
+          }
+        },
+        "mcc": {
+          "mean": 0.11383448279905106,
+          "sd": 0.033992942226426966,
+          "per_seed": {
+            "42": 0.13873506855665313,
+            "43": 0.07510699937587428,
+            "44": 0.1276613804646258
+          }
+        },
+        "roc_auc": {
+          "mean": 0.5699055989583334,
+          "sd": 0.020090033281384014,
+          "per_seed": {
+            "42": 0.574798583984375,
+            "43": 0.547821044921875,
+            "44": 0.58709716796875
+          }
+        },
+        "pr_auc": {
+          "mean": 0.5778285662016561,
+          "sd": 0.013403704698523014,
+          "per_seed": {
+            "42": 0.575017048854787,
+            "43": 0.5660536258306014,
+            "44": 0.5924150239195798
+          }
+        },
+        "average_precision": {
+          "mean": 0.5813433223715814,
+          "sd": 0.013778979140734907,
+          "per_seed": {
+            "42": 0.5787543275589351,
+            "43": 0.5690424861830318,
+            "44": 0.5962331533727773
+          }
+        }
+      },
+      "fno_attention": {
+        "accuracy": {
+          "mean": 0.5416666666666666,
+          "sd": 0.009830513587592123,
+          "per_seed": {
+            "42": 0.55078125,
+            "43": 0.53125,
+            "44": 0.54296875
+          }
+        },
+        "f1": {
+          "mean": 0.43859378104361024,
+          "sd": 0.07942676936049468,
+          "per_seed": {
+            "42": 0.39790575916230364,
+            "43": 0.3877551020408163,
+            "44": 0.5301204819277109
+          }
+        },
+        "mcc": {
+          "mean": 0.09157198291271573,
+          "sd": 0.0240473533426133,
+          "per_seed": {
+            "42": 0.1178947383880377,
+            "43": 0.0707549137677225,
+            "44": 0.08606629658238704
+          }
+        },
+        "roc_auc": {
+          "mean": 0.561187744140625,
+          "sd": 0.014555957052870874,
+          "per_seed": {
+            "42": 0.559661865234375,
+            "43": 0.547454833984375,
+            "44": 0.576446533203125
+          }
+        },
+        "pr_auc": {
+          "mean": 0.5664594029769883,
+          "sd": 0.004778382605394793,
+          "per_seed": {
+            "42": 0.564684637916068,
+            "43": 0.5628223411153223,
+            "44": 0.5718712298995746
+          }
+        },
+        "average_precision": {
+          "mean": 0.5701955197879248,
+          "sd": 0.0053215797896188684,
+          "per_seed": {
+            "42": 0.5682861120131029,
+            "43": 0.5660920784698908,
+            "44": 0.576208368880781
+          }
+        }
+      },
+      "fno_mean": {
+        "accuracy": {
+          "mean": 0.5442708333333334,
+          "sd": 0.01578692142315383,
+          "per_seed": {
+            "42": 0.546875,
+            "43": 0.55859375,
+            "44": 0.52734375
+          }
+        },
+        "f1": {
+          "mean": 0.5004382216765766,
+          "sd": 0.10373393241855003,
+          "per_seed": {
+            "42": 0.3958333333333333,
+            "43": 0.5022026431718062,
+            "44": 0.6032786885245902
+          }
+        },
+        "mcc": {
+          "mean": 0.0959220166392888,
+          "sd": 0.03237186454722006,
+          "per_seed": {
+            "42": 0.10825317547305484,
+            "43": 0.12031612481285553,
+            "44": 0.05919674963195603
+          }
+        },
+        "roc_auc": {
+          "mean": 0.565948486328125,
+          "sd": 0.008386117193131672,
+          "per_seed": {
+            "42": 0.55841064453125,
+            "43": 0.564453125,
+            "44": 0.574981689453125
+          }
+        },
+        "pr_auc": {
+          "mean": 0.5665898072227825,
+          "sd": 0.004513444762943297,
+          "per_seed": {
+            "42": 0.5627206685848388,
+            "43": 0.5655005530881749,
+            "44": 0.5715481999953341
+          }
+        },
+        "average_precision": {
+          "mean": 0.570373515288815,
+          "sd": 0.0050934967455342215,
+          "per_seed": {
+            "42": 0.5659113414365016,
+            "43": 0.5692864005211976,
+            "44": 0.5759228039087458
+          }
+        }
+      }
+    },
+    "new_holdout": {
+      "cnn_attention": {
+        "accuracy": {
+          "mean": 0.5615234375,
+          "sd": 0.007372885190694092,
+          "per_seed": {
+            "42": 0.568359375,
+            "43": 0.5537109375,
+            "44": 0.5625
+          }
+        },
+        "f1": {
+          "mean": 0.5026394116877138,
+          "sd": 0.014462939199257244,
+          "per_seed": {
+            "42": 0.5110619469026548,
+            "43": 0.4859392575928009,
+            "44": 0.5109170305676856
+          }
+        },
+        "mcc": {
+          "mean": 0.1266253385340005,
+          "sd": 0.01467673100131604,
+          "per_seed": {
+            "42": 0.140635987615753,
+            "43": 0.11136273132168915,
+            "44": 0.1278772966645593
+          }
+        },
+        "roc_auc": {
+          "mean": 0.5955518086751302,
+          "sd": 0.004305320354997991,
+          "per_seed": {
+            "42": 0.5976982116699219,
+            "43": 0.5905952453613281,
+            "44": 0.5983619689941406
+          }
+        },
+        "pr_auc": {
+          "mean": 0.5943290239335658,
+          "sd": 0.002942936984564401,
+          "per_seed": {
+            "42": 0.5965190397579597,
+            "43": 0.5909837380137006,
+            "44": 0.595484294029037
+          }
+        },
+        "average_precision": {
+          "mean": 0.5951990076734478,
+          "sd": 0.002709488141736213,
+          "per_seed": {
+            "42": 0.5973000847073286,
+            "43": 0.5921408754567058,
+            "44": 0.596156062856309
+          }
+        }
+      },
+      "cnn_mean": {
+        "accuracy": {
+          "mean": 0.560546875,
+          "sd": 0.00799350856628169,
+          "per_seed": {
+            "42": 0.5673828125,
+            "43": 0.5517578125,
+            "44": 0.5625
+          }
+        },
+        "f1": {
+          "mean": 0.5013064576334453,
+          "sd": 0.015319559589967181,
+          "per_seed": {
+            "42": 0.503919372900336,
+            "43": 0.48484848484848486,
+            "44": 0.5151515151515151
+          }
+        },
+        "mcc": {
+          "mean": 0.12468533090777638,
+          "sd": 0.016282802715291058,
+          "per_seed": {
+            "42": 0.13940588776290694,
+            "43": 0.10719546370912857,
+            "44": 0.12745464125129366
+          }
+        },
+        "roc_auc": {
+          "mean": 0.5958754221598307,
+          "sd": 0.004388163979349854,
+          "per_seed": {
+            "42": 0.5985870361328125,
+            "43": 0.5908126831054688,
+            "44": 0.5982265472412109
+          }
+        },
+        "pr_auc": {
+          "mean": 0.5944978478370088,
+          "sd": 0.0031872197773762647,
+          "per_seed": {
+            "42": 0.5973390982345458,
+            "43": 0.5910514284623255,
+            "44": 0.5951030168141551
+          }
+        },
+        "average_precision": {
+          "mean": 0.5953580682303671,
+          "sd": 0.002937752985561225,
+          "per_seed": {
+            "42": 0.5980611584363034,
+            "43": 0.5922315949293857,
+            "44": 0.5957814513254119
+          }
+        }
+      },
+      "fno_attention": {
+        "accuracy": {
+          "mean": 0.5641276041666666,
+          "sd": 0.01123400646271966,
+          "per_seed": {
+            "42": 0.552734375,
+            "43": 0.5751953125,
+            "44": 0.564453125
+          }
+        },
+        "f1": {
+          "mean": 0.47829757191975286,
+          "sd": 0.07152399622722679,
+          "per_seed": {
+            "42": 0.402088772845953,
+            "43": 0.4888366627497062,
+            "44": 0.5439672801635992
+          }
+        },
+        "mcc": {
+          "mean": 0.13710755642468608,
+          "sd": 0.019980852919550634,
+          "per_seed": {
+            "42": 0.12210446326351067,
+            "43": 0.15978852592218779,
+            "44": 0.1294296800883598
+          }
+        },
+        "roc_auc": {
+          "mean": 0.5882549285888672,
+          "sd": 0.008021691589300663,
+          "per_seed": {
+            "42": 0.5791263580322266,
+            "43": 0.5941791534423828,
+            "44": 0.5914592742919922
+          }
+        },
+        "pr_auc": {
+          "mean": 0.5891999093961733,
+          "sd": 0.005583908178294403,
+          "per_seed": {
+            "42": 0.5852198244521556,
+            "43": 0.5955830400100735,
+            "44": 0.5867968637262909
+          }
+        },
+        "average_precision": {
+          "mean": 0.5900311890314596,
+          "sd": 0.005752691402965033,
+          "per_seed": {
+            "42": 0.5858435159428075,
+            "43": 0.5965905607010178,
+            "44": 0.5876594904505535
+          }
+        }
+      },
+      "fno_mean": {
+        "accuracy": {
+          "mean": 0.5569661458333334,
+          "sd": 0.005886439231779011,
+          "per_seed": {
+            "42": 0.55078125,
+            "43": 0.5576171875,
+            "44": 0.5625
+          }
+        },
+        "f1": {
+          "mean": 0.5133005817222006,
+          "sd": 0.1174940041446058,
+          "per_seed": {
+            "42": 0.39790575916230364,
+            "43": 0.5092091007583965,
+            "44": 0.6327868852459017
+          }
+        },
+        "mcc": {
+          "mean": 0.12358190079050757,
+          "sd": 0.010155622668063814,
+          "per_seed": {
+            "42": 0.1178947383880377,
+            "43": 0.11754410768187126,
+            "44": 0.1353068563016138
+          }
+        },
+        "roc_auc": {
+          "mean": 0.586371103922526,
+          "sd": 0.007543952375679249,
+          "per_seed": {
+            "42": 0.5787220001220703,
+            "43": 0.5938053131103516,
+            "44": 0.5865859985351562
+          }
+        },
+        "pr_auc": {
+          "mean": 0.5871309650297694,
+          "sd": 0.0066546141961998945,
+          "per_seed": {
+            "42": 0.5845172187487552,
+            "43": 0.5946956443261212,
+            "44": 0.5821800320144317
+          }
+        },
+        "average_precision": {
+          "mean": 0.5878466156150931,
+          "sd": 0.00668825891766594,
+          "per_seed": {
+            "42": 0.5850164722732214,
+            "43": 0.5954846708026456,
+            "44": 0.5830387037694122
+          }
+        }
+      },
+      "prior_cnn": {
+        "accuracy": {
+          "mean": 0.5559895833333334,
+          "sd": 0.005638186222554939,
+          "per_seed": {
+            "42": 0.5625,
+            "43": 0.552734375,
+            "44": 0.552734375
+          }
+        },
+        "f1": {
+          "mean": 0.49328989201049195,
+          "sd": 0.007860417477542457,
+          "per_seed": {
+            "42": 0.5011135857461024,
+            "43": 0.49336283185840707,
+            "44": 0.4853932584269663
+          }
+        },
+        "mcc": {
+          "mean": 0.11557818543419938,
+          "sd": 0.0116010581384796,
+          "per_seed": {
+            "42": 0.12896622339592317,
+            "43": 0.1084906190178666,
+            "44": 0.10927771388880837
+          }
+        },
+        "roc_auc": {
+          "mean": 0.5922985076904297,
+          "sd": 0.0027167146686670816,
+          "per_seed": {
+            "42": 0.5954132080078125,
+            "43": 0.5904178619384766,
+            "44": 0.591064453125
+          }
+        },
+        "pr_auc": {
+          "mean": 0.5906083229697745,
+          "sd": 0.003172765472030206,
+          "per_seed": {
+            "42": 0.5940349722992168,
+            "43": 0.5900174939710949,
+            "44": 0.5877725026390119
+          }
+        },
+        "average_precision": {
+          "mean": 0.5915663571711144,
+          "sd": 0.0031023982085171173,
+          "per_seed": {
+            "42": 0.5948151469594221,
+            "43": 0.5912492106572431,
+            "44": 0.5886347138966781
+          }
+        }
+      },
+      "prior_fno": {
+        "accuracy": {
+          "mean": 0.5485026041666666,
+          "sd": 0.014396708585609362,
+          "per_seed": {
+            "42": 0.5595703125,
+            "43": 0.5322265625,
+            "44": 0.5537109375
+          }
+        },
+        "f1": {
+          "mean": 0.5421902822393809,
+          "sd": 0.09394535716443278,
+          "per_seed": {
+            "42": 0.5016574585635359,
+            "43": 0.6495976591075348,
+            "44": 0.4753157290470723
+          }
+        },
+        "mcc": {
+          "mean": 0.10729134246036433,
+          "sd": 0.018416167360831768,
+          "per_seed": {
+            "42": 0.12249514615193026,
+            "43": 0.0868135528687438,
+            "44": 0.11256532836041894
+          }
+        },
+        "roc_auc": {
+          "mean": 0.5955759684244791,
+          "sd": 0.0027640985074221833,
+          "per_seed": {
+            "42": 0.5986785888671875,
+            "43": 0.5946731567382812,
+            "44": 0.5933761596679688
+          }
+        },
+        "pr_auc": {
+          "mean": 0.5938506747356338,
+          "sd": 0.0036168854591634462,
+          "per_seed": {
+            "42": 0.5964592779001229,
+            "43": 0.595370953223483,
+            "44": 0.5897217930832954
+          }
+        },
+        "average_precision": {
+          "mean": 0.5946599806897016,
+          "sd": 0.00359757492978169,
+          "per_seed": {
+            "42": 0.5971842213850846,
+            "43": 0.5962550796299233,
+            "44": 0.590540641054097
+          }
+        }
+      },
+      "prior_lora": {
+        "accuracy": {
+          "mean": 0.572265625,
+          "sd": 0.027500249688142037,
+          "per_seed": {
+            "42": 0.595703125,
+            "43": 0.5791015625,
+            "44": 0.5419921875
+          }
+        },
+        "f1": {
+          "mean": 0.5400994937620006,
+          "sd": 0.039821686626322454,
+          "per_seed": {
+            "42": 0.5731958762886598,
+            "43": 0.495906432748538,
+            "44": 0.5511961722488038
+          }
+        },
+        "mcc": {
+          "mean": 0.1480437270439184,
+          "sd": 0.056795287450146115,
+          "per_seed": {
+            "42": 0.19247978331916044,
+            "43": 0.16759629087687367,
+            "44": 0.08405510693572117
+          }
+        },
+        "roc_auc": {
+          "mean": 0.6107489267985026,
+          "sd": 0.04390560094054737,
+          "per_seed": {
+            "42": 0.6457500457763672,
+            "43": 0.6250114440917969,
+            "44": 0.5614852905273438
+          }
+        },
+        "pr_auc": {
+          "mean": 0.604236948121731,
+          "sd": 0.03711089788979184,
+          "per_seed": {
+            "42": 0.6346980167847607,
+            "43": 0.6151083526859417,
+            "44": 0.5629044748944904
+          }
+        },
+        "average_precision": {
+          "mean": 0.6052571019564864,
+          "sd": 0.036631394756125465,
+          "per_seed": {
+            "42": 0.6351899743997513,
+            "43": 0.6161726371097419,
+            "44": 0.564408694359966
+          }
+        }
+      }
+    }
+  },
+  "results": [
+    {
+      "model": "fno_mean",
+      "variant": "fno",
+      "seed": 42,
+      "split": "previous_test",
+      "metrics": {
+        "accuracy": 0.546875,
+        "f1": 0.3958333333333333,
+        "mcc": 0.10825317547305484,
+        "roc_auc": 0.55841064453125,
+        "pr_auc": 0.5627206685848388,
+        "average_precision": 0.5659113414365016
+      },
+      "seconds": 4.903812300064601,
+      "training": {
+        "settings": {
+          "study_id": "6ba3bdb21e790a16b3dd2e424b9722deb91528f9210e7a1f345bfe3915d0c4ee",
+          "variant": "fno",
+          "seed": 42,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\fno_s64_lr0.0003\\trials\\fno_seed42_lr0.0003",
+        "trainable_params": 237424,
+        "head_initial_sha256": "d6400124f65f0f116e6ff90bb911ea81fe5fd5f5ed76442bbc203a97e096d203",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 5,
+        "best_epoch": 1,
+        "best_dev_mcc": 0.1723454968864278,
+        "training_mode": "cached_frozen",
+        "train_seconds": 30.206723500043154,
+        "dev_seconds": 5.084426400018856,
+        "epoch_wall_seconds_total": 35.31726839998737,
+        "mean_train_epoch_seconds": 6.041344700008631,
+        "peak_memory": {
+          "allocated_mib": 117.158203125,
+          "reserved_mib": 136.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "424844f0614eccdf5e7d29012ce1fd9649063c461f04eb0981735eea0ea5a097",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 37,
+        "mlp_width": 139,
+        "cnn_width": 37,
+        "modes": 64,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 3,
+        "diagnostic_pooling": "mean"
+      }
+    },
+    {
+      "model": "fno_mean",
+      "variant": "fno",
+      "seed": 42,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.55078125,
+        "f1": 0.39790575916230364,
+        "mcc": 0.1178947383880377,
+        "roc_auc": 0.5787220001220703,
+        "pr_auc": 0.5845172187487552,
+        "average_precision": 0.5850164722732214
+      },
+      "seconds": 12.740437499945983,
+      "training": {
+        "settings": {
+          "study_id": "6ba3bdb21e790a16b3dd2e424b9722deb91528f9210e7a1f345bfe3915d0c4ee",
+          "variant": "fno",
+          "seed": 42,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\fno_s64_lr0.0003\\trials\\fno_seed42_lr0.0003",
+        "trainable_params": 237424,
+        "head_initial_sha256": "d6400124f65f0f116e6ff90bb911ea81fe5fd5f5ed76442bbc203a97e096d203",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 5,
+        "best_epoch": 1,
+        "best_dev_mcc": 0.1723454968864278,
+        "training_mode": "cached_frozen",
+        "train_seconds": 30.206723500043154,
+        "dev_seconds": 5.084426400018856,
+        "epoch_wall_seconds_total": 35.31726839998737,
+        "mean_train_epoch_seconds": 6.041344700008631,
+        "peak_memory": {
+          "allocated_mib": 117.158203125,
+          "reserved_mib": 136.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "424844f0614eccdf5e7d29012ce1fd9649063c461f04eb0981735eea0ea5a097",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 37,
+        "mlp_width": 139,
+        "cnn_width": 37,
+        "modes": 64,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 3,
+        "diagnostic_pooling": "mean"
+      }
+    },
+    {
+      "model": "fno_mean",
+      "variant": "fno",
+      "seed": 43,
+      "split": "previous_test",
+      "metrics": {
+        "accuracy": 0.55859375,
+        "f1": 0.5022026431718062,
+        "mcc": 0.12031612481285553,
+        "roc_auc": 0.564453125,
+        "pr_auc": 0.5655005530881749,
+        "average_precision": 0.5692864005211976
+      },
+      "seconds": 0.8441417999565601,
+      "training": {
+        "settings": {
+          "study_id": "6ba3bdb21e790a16b3dd2e424b9722deb91528f9210e7a1f345bfe3915d0c4ee",
+          "variant": "fno",
+          "seed": 43,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\fno_s64_lr0.0003\\trials\\fno_seed43_lr0.0003",
+        "trainable_params": 237424,
+        "head_initial_sha256": "55bc6518cbb8b92df777c5c1d0ab68fbdbb3632de02ce8326769c46c7700a001",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 9,
+        "best_epoch": 5,
+        "best_dev_mcc": 0.1931818417602717,
+        "training_mode": "cached_frozen",
+        "train_seconds": 55.74924119981006,
+        "dev_seconds": 8.427079900051467,
+        "epoch_wall_seconds_total": 64.24142759980168,
+        "mean_train_epoch_seconds": 6.1943601333122285,
+        "peak_memory": {
+          "allocated_mib": 117.158203125,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "9bbbca0f566ca0e3c7357e0a47f8d0b6cd465eb05fd9837da0ff687d8f0b3cca",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 37,
+        "mlp_width": 139,
+        "cnn_width": 37,
+        "modes": 64,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 3,
+        "diagnostic_pooling": "mean"
+      }
+    },
+    {
+      "model": "fno_mean",
+      "variant": "fno",
+      "seed": 43,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.5576171875,
+        "f1": 0.5092091007583965,
+        "mcc": 0.11754410768187126,
+        "roc_auc": 0.5938053131103516,
+        "pr_auc": 0.5946956443261212,
+        "average_precision": 0.5954846708026456
+      },
+      "seconds": 3.6156092000892386,
+      "training": {
+        "settings": {
+          "study_id": "6ba3bdb21e790a16b3dd2e424b9722deb91528f9210e7a1f345bfe3915d0c4ee",
+          "variant": "fno",
+          "seed": 43,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\fno_s64_lr0.0003\\trials\\fno_seed43_lr0.0003",
+        "trainable_params": 237424,
+        "head_initial_sha256": "55bc6518cbb8b92df777c5c1d0ab68fbdbb3632de02ce8326769c46c7700a001",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 9,
+        "best_epoch": 5,
+        "best_dev_mcc": 0.1931818417602717,
+        "training_mode": "cached_frozen",
+        "train_seconds": 55.74924119981006,
+        "dev_seconds": 8.427079900051467,
+        "epoch_wall_seconds_total": 64.24142759980168,
+        "mean_train_epoch_seconds": 6.1943601333122285,
+        "peak_memory": {
+          "allocated_mib": 117.158203125,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "9bbbca0f566ca0e3c7357e0a47f8d0b6cd465eb05fd9837da0ff687d8f0b3cca",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 37,
+        "mlp_width": 139,
+        "cnn_width": 37,
+        "modes": 64,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 3,
+        "diagnostic_pooling": "mean"
+      }
+    },
+    {
+      "model": "fno_mean",
+      "variant": "fno",
+      "seed": 44,
+      "split": "previous_test",
+      "metrics": {
+        "accuracy": 0.52734375,
+        "f1": 0.6032786885245902,
+        "mcc": 0.05919674963195603,
+        "roc_auc": 0.574981689453125,
+        "pr_auc": 0.5715481999953341,
+        "average_precision": 0.5759228039087458
+      },
+      "seconds": 0.915918399929069,
+      "training": {
+        "settings": {
+          "study_id": "6ba3bdb21e790a16b3dd2e424b9722deb91528f9210e7a1f345bfe3915d0c4ee",
+          "variant": "fno",
+          "seed": 44,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\fno_s64_lr0.0003\\trials\\fno_seed44_lr0.0003",
+        "trainable_params": 237424,
+        "head_initial_sha256": "bf784917a9879c56f45de919633c087a944c5d043d0b8288db9af2759c84f5d4",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 7,
+        "best_epoch": 3,
+        "best_dev_mcc": 0.1285814743915456,
+        "training_mode": "cached_frozen",
+        "train_seconds": 42.12689539999701,
+        "dev_seconds": 6.364656200050376,
+        "epoch_wall_seconds_total": 48.542431699926965,
+        "mean_train_epoch_seconds": 6.018127914285287,
+        "peak_memory": {
+          "allocated_mib": 117.158203125,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "57df00d3af6cead9b4a74c7226a96aa81fe7eaf215db58c9ef7235fd24555589",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 37,
+        "mlp_width": 139,
+        "cnn_width": 37,
+        "modes": 64,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 3,
+        "diagnostic_pooling": "mean"
+      }
+    },
+    {
+      "model": "fno_mean",
+      "variant": "fno",
+      "seed": 44,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.5625,
+        "f1": 0.6327868852459017,
+        "mcc": 0.1353068563016138,
+        "roc_auc": 0.5865859985351562,
+        "pr_auc": 0.5821800320144317,
+        "average_precision": 0.5830387037694122
+      },
+      "seconds": 3.7957123999949545,
+      "training": {
+        "settings": {
+          "study_id": "6ba3bdb21e790a16b3dd2e424b9722deb91528f9210e7a1f345bfe3915d0c4ee",
+          "variant": "fno",
+          "seed": 44,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\fno_s64_lr0.0003\\trials\\fno_seed44_lr0.0003",
+        "trainable_params": 237424,
+        "head_initial_sha256": "bf784917a9879c56f45de919633c087a944c5d043d0b8288db9af2759c84f5d4",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 7,
+        "best_epoch": 3,
+        "best_dev_mcc": 0.1285814743915456,
+        "training_mode": "cached_frozen",
+        "train_seconds": 42.12689539999701,
+        "dev_seconds": 6.364656200050376,
+        "epoch_wall_seconds_total": 48.542431699926965,
+        "mean_train_epoch_seconds": 6.018127914285287,
+        "peak_memory": {
+          "allocated_mib": 117.158203125,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "57df00d3af6cead9b4a74c7226a96aa81fe7eaf215db58c9ef7235fd24555589",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 37,
+        "mlp_width": 139,
+        "cnn_width": 37,
+        "modes": 64,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 3,
+        "diagnostic_pooling": "mean"
+      }
+    },
+    {
+      "model": "fno_attention",
+      "variant": "fno",
+      "seed": 42,
+      "split": "previous_test",
+      "metrics": {
+        "accuracy": 0.55078125,
+        "f1": 0.39790575916230364,
+        "mcc": 0.1178947383880377,
+        "roc_auc": 0.559661865234375,
+        "pr_auc": 0.564684637916068,
+        "average_precision": 0.5682861120131029
+      },
+      "seconds": 1.002390000037849,
+      "training": {
+        "settings": {
+          "study_id": "49c94cad8d190a109acdb38cfe781fcaffcdd6e22ade33a2fb16d8f0cf9ce98a",
+          "variant": "fno",
+          "seed": 42,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\fno_s64_lr0.0003_attention\\trials\\fno_seed42_lr0.0003",
+        "trainable_params": 238192,
+        "head_initial_sha256": "d6400124f65f0f116e6ff90bb911ea81fe5fd5f5ed76442bbc203a97e096d203",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 5,
+        "best_epoch": 1,
+        "best_dev_mcc": 0.1723454968864278,
+        "training_mode": "cached_frozen",
+        "train_seconds": 31.039582300116308,
+        "dev_seconds": 4.537959800101817,
+        "epoch_wall_seconds_total": 35.610094900010154,
+        "mean_train_epoch_seconds": 6.207916460023261,
+        "peak_memory": {
+          "allocated_mib": 120.25537109375,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "06e4f831acec1a5fcea812eadb51b0fdd503b37c7b1ff6d9269fd6a12dd61286",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 37,
+        "mlp_width": 139,
+        "cnn_width": 37,
+        "modes": 64,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 3,
+        "diagnostic_pooling": "attention"
+      }
+    },
+    {
+      "model": "fno_attention",
+      "variant": "fno",
+      "seed": 42,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.552734375,
+        "f1": 0.402088772845953,
+        "mcc": 0.12210446326351067,
+        "roc_auc": 0.5791263580322266,
+        "pr_auc": 0.5852198244521556,
+        "average_precision": 0.5858435159428075
+      },
+      "seconds": 3.778155899955891,
+      "training": {
+        "settings": {
+          "study_id": "49c94cad8d190a109acdb38cfe781fcaffcdd6e22ade33a2fb16d8f0cf9ce98a",
+          "variant": "fno",
+          "seed": 42,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\fno_s64_lr0.0003_attention\\trials\\fno_seed42_lr0.0003",
+        "trainable_params": 238192,
+        "head_initial_sha256": "d6400124f65f0f116e6ff90bb911ea81fe5fd5f5ed76442bbc203a97e096d203",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 5,
+        "best_epoch": 1,
+        "best_dev_mcc": 0.1723454968864278,
+        "training_mode": "cached_frozen",
+        "train_seconds": 31.039582300116308,
+        "dev_seconds": 4.537959800101817,
+        "epoch_wall_seconds_total": 35.610094900010154,
+        "mean_train_epoch_seconds": 6.207916460023261,
+        "peak_memory": {
+          "allocated_mib": 120.25537109375,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "06e4f831acec1a5fcea812eadb51b0fdd503b37c7b1ff6d9269fd6a12dd61286",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 37,
+        "mlp_width": 139,
+        "cnn_width": 37,
+        "modes": 64,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 3,
+        "diagnostic_pooling": "attention"
+      }
+    },
+    {
+      "model": "fno_attention",
+      "variant": "fno",
+      "seed": 43,
+      "split": "previous_test",
+      "metrics": {
+        "accuracy": 0.53125,
+        "f1": 0.3877551020408163,
+        "mcc": 0.0707549137677225,
+        "roc_auc": 0.547454833984375,
+        "pr_auc": 0.5628223411153223,
+        "average_precision": 0.5660920784698908
+      },
+      "seconds": 0.8637343000154942,
+      "training": {
+        "settings": {
+          "study_id": "49c94cad8d190a109acdb38cfe781fcaffcdd6e22ade33a2fb16d8f0cf9ce98a",
+          "variant": "fno",
+          "seed": 43,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\fno_s64_lr0.0003_attention\\trials\\fno_seed43_lr0.0003",
+        "trainable_params": 238192,
+        "head_initial_sha256": "55bc6518cbb8b92df777c5c1d0ab68fbdbb3632de02ce8326769c46c7700a001",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 7,
+        "best_epoch": 3,
+        "best_dev_mcc": 0.18236155465055132,
+        "training_mode": "cached_frozen",
+        "train_seconds": 44.34152740018908,
+        "dev_seconds": 6.569102699984796,
+        "epoch_wall_seconds_total": 50.96115830016788,
+        "mean_train_epoch_seconds": 6.334503914312726,
+        "peak_memory": {
+          "allocated_mib": 120.25537109375,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "299a913e38aaf238c18cc6ac4603dbc304d7cc62c45018b8cfb8802a1e157fff",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 37,
+        "mlp_width": 139,
+        "cnn_width": 37,
+        "modes": 64,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 3,
+        "diagnostic_pooling": "attention"
+      }
+    },
+    {
+      "model": "fno_attention",
+      "variant": "fno",
+      "seed": 43,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.5751953125,
+        "f1": 0.4888366627497062,
+        "mcc": 0.15978852592218779,
+        "roc_auc": 0.5941791534423828,
+        "pr_auc": 0.5955830400100735,
+        "average_precision": 0.5965905607010178
+      },
+      "seconds": 3.4371978999115527,
+      "training": {
+        "settings": {
+          "study_id": "49c94cad8d190a109acdb38cfe781fcaffcdd6e22ade33a2fb16d8f0cf9ce98a",
+          "variant": "fno",
+          "seed": 43,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\fno_s64_lr0.0003_attention\\trials\\fno_seed43_lr0.0003",
+        "trainable_params": 238192,
+        "head_initial_sha256": "55bc6518cbb8b92df777c5c1d0ab68fbdbb3632de02ce8326769c46c7700a001",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 7,
+        "best_epoch": 3,
+        "best_dev_mcc": 0.18236155465055132,
+        "training_mode": "cached_frozen",
+        "train_seconds": 44.34152740018908,
+        "dev_seconds": 6.569102699984796,
+        "epoch_wall_seconds_total": 50.96115830016788,
+        "mean_train_epoch_seconds": 6.334503914312726,
+        "peak_memory": {
+          "allocated_mib": 120.25537109375,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "299a913e38aaf238c18cc6ac4603dbc304d7cc62c45018b8cfb8802a1e157fff",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 37,
+        "mlp_width": 139,
+        "cnn_width": 37,
+        "modes": 64,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 3,
+        "diagnostic_pooling": "attention"
+      }
+    },
+    {
+      "model": "fno_attention",
+      "variant": "fno",
+      "seed": 44,
+      "split": "previous_test",
+      "metrics": {
+        "accuracy": 0.54296875,
+        "f1": 0.5301204819277109,
+        "mcc": 0.08606629658238704,
+        "roc_auc": 0.576446533203125,
+        "pr_auc": 0.5718712298995746,
+        "average_precision": 0.576208368880781
+      },
+      "seconds": 0.85452539997641,
+      "training": {
+        "settings": {
+          "study_id": "49c94cad8d190a109acdb38cfe781fcaffcdd6e22ade33a2fb16d8f0cf9ce98a",
+          "variant": "fno",
+          "seed": 44,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\fno_s64_lr0.0003_attention\\trials\\fno_seed44_lr0.0003",
+        "trainable_params": 238192,
+        "head_initial_sha256": "bf784917a9879c56f45de919633c087a944c5d043d0b8288db9af2759c84f5d4",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 8,
+        "best_epoch": 4,
+        "best_dev_mcc": 0.13688772067304905,
+        "training_mode": "cached_frozen",
+        "train_seconds": 49.90563650010154,
+        "dev_seconds": 7.779911699704826,
+        "epoch_wall_seconds_total": 57.73757369990926,
+        "mean_train_epoch_seconds": 6.238204562512692,
+        "peak_memory": {
+          "allocated_mib": 120.25537109375,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "cdc2e76d8be618b1fdd488234dc20ae8b36f719850b79625fc94229f181e7b71",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 37,
+        "mlp_width": 139,
+        "cnn_width": 37,
+        "modes": 64,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 3,
+        "diagnostic_pooling": "attention"
+      }
+    },
+    {
+      "model": "fno_attention",
+      "variant": "fno",
+      "seed": 44,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.564453125,
+        "f1": 0.5439672801635992,
+        "mcc": 0.1294296800883598,
+        "roc_auc": 0.5914592742919922,
+        "pr_auc": 0.5867968637262909,
+        "average_precision": 0.5876594904505535
+      },
+      "seconds": 3.579091400024481,
+      "training": {
+        "settings": {
+          "study_id": "49c94cad8d190a109acdb38cfe781fcaffcdd6e22ade33a2fb16d8f0cf9ce98a",
+          "variant": "fno",
+          "seed": 44,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\fno_s64_lr0.0003_attention\\trials\\fno_seed44_lr0.0003",
+        "trainable_params": 238192,
+        "head_initial_sha256": "bf784917a9879c56f45de919633c087a944c5d043d0b8288db9af2759c84f5d4",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 8,
+        "best_epoch": 4,
+        "best_dev_mcc": 0.13688772067304905,
+        "training_mode": "cached_frozen",
+        "train_seconds": 49.90563650010154,
+        "dev_seconds": 7.779911699704826,
+        "epoch_wall_seconds_total": 57.73757369990926,
+        "mean_train_epoch_seconds": 6.238204562512692,
+        "peak_memory": {
+          "allocated_mib": 120.25537109375,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "cdc2e76d8be618b1fdd488234dc20ae8b36f719850b79625fc94229f181e7b71",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 37,
+        "mlp_width": 139,
+        "cnn_width": 37,
+        "modes": 64,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 3,
+        "diagnostic_pooling": "attention"
+      }
+    },
+    {
+      "model": "cnn_mean",
+      "variant": "cnn",
+      "seed": 42,
+      "split": "previous_test",
+      "metrics": {
+        "accuracy": 0.56640625,
+        "f1": 0.4931506849315068,
+        "mcc": 0.13873506855665313,
+        "roc_auc": 0.574798583984375,
+        "pr_auc": 0.575017048854787,
+        "average_precision": 0.5787543275589351
+      },
+      "seconds": 0.8454279999714345,
+      "training": {
+        "settings": {
+          "study_id": "0bd3141e057dd6419b463f8f76799398074643372be1d38fcecee621adc3885f",
+          "variant": "cnn",
+          "seed": 42,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\cnn_s17_lr0.0003\\trials\\cnn_seed42_lr0.0003",
+        "trainable_params": 237920,
+        "head_initial_sha256": "d6400124f65f0f116e6ff90bb911ea81fe5fd5f5ed76442bbc203a97e096d203",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 8,
+        "best_epoch": 4,
+        "best_dev_mcc": 0.18670905391899717,
+        "training_mode": "cached_frozen",
+        "train_seconds": 47.07189849996939,
+        "dev_seconds": 6.8425042000599205,
+        "epoch_wall_seconds_total": 53.97209240007214,
+        "mean_train_epoch_seconds": 5.883987312496174,
+        "peak_memory": {
+          "allocated_mib": 118.2861328125,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "889f71d28d1056cd77175a06cafbc95c5c757f02cf0493bf3856a0f46820c90b",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 79,
+        "mlp_width": 139,
+        "cnn_width": 79,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 17,
+        "diagnostic_pooling": "mean"
+      }
+    },
+    {
+      "model": "cnn_mean",
+      "variant": "cnn",
+      "seed": 42,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.5673828125,
+        "f1": 0.503919372900336,
+        "mcc": 0.13940588776290694,
+        "roc_auc": 0.5985870361328125,
+        "pr_auc": 0.5973390982345458,
+        "average_precision": 0.5980611584363034
+      },
+      "seconds": 3.1631478000199422,
+      "training": {
+        "settings": {
+          "study_id": "0bd3141e057dd6419b463f8f76799398074643372be1d38fcecee621adc3885f",
+          "variant": "cnn",
+          "seed": 42,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\cnn_s17_lr0.0003\\trials\\cnn_seed42_lr0.0003",
+        "trainable_params": 237920,
+        "head_initial_sha256": "d6400124f65f0f116e6ff90bb911ea81fe5fd5f5ed76442bbc203a97e096d203",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 8,
+        "best_epoch": 4,
+        "best_dev_mcc": 0.18670905391899717,
+        "training_mode": "cached_frozen",
+        "train_seconds": 47.07189849996939,
+        "dev_seconds": 6.8425042000599205,
+        "epoch_wall_seconds_total": 53.97209240007214,
+        "mean_train_epoch_seconds": 5.883987312496174,
+        "peak_memory": {
+          "allocated_mib": 118.2861328125,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "889f71d28d1056cd77175a06cafbc95c5c757f02cf0493bf3856a0f46820c90b",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 79,
+        "mlp_width": 139,
+        "cnn_width": 79,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 17,
+        "diagnostic_pooling": "mean"
+      }
+    },
+    {
+      "model": "cnn_mean",
+      "variant": "cnn",
+      "seed": 43,
+      "split": "previous_test",
+      "metrics": {
+        "accuracy": 0.53515625,
+        "f1": 0.43601895734597157,
+        "mcc": 0.07510699937587428,
+        "roc_auc": 0.547821044921875,
+        "pr_auc": 0.5660536258306014,
+        "average_precision": 0.5690424861830318
+      },
+      "seconds": 0.8029430999886245,
+      "training": {
+        "settings": {
+          "study_id": "0bd3141e057dd6419b463f8f76799398074643372be1d38fcecee621adc3885f",
+          "variant": "cnn",
+          "seed": 43,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\cnn_s17_lr0.0003\\trials\\cnn_seed43_lr0.0003",
+        "trainable_params": 237920,
+        "head_initial_sha256": "55bc6518cbb8b92df777c5c1d0ab68fbdbb3632de02ce8326769c46c7700a001",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 6,
+        "best_epoch": 2,
+        "best_dev_mcc": 0.19280451008486024,
+        "training_mode": "cached_frozen",
+        "train_seconds": 36.38243340002373,
+        "dev_seconds": 5.260980800143443,
+        "epoch_wall_seconds_total": 41.68795179994777,
+        "mean_train_epoch_seconds": 6.063738900003955,
+        "peak_memory": {
+          "allocated_mib": 118.2861328125,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "6a071867d2ee274f6e2ef222e9946f1c8319ff2e801bee70c6956b1a5e1642ad",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 79,
+        "mlp_width": 139,
+        "cnn_width": 79,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 17,
+        "diagnostic_pooling": "mean"
+      }
+    },
+    {
+      "model": "cnn_mean",
+      "variant": "cnn",
+      "seed": 43,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.5517578125,
+        "f1": 0.48484848484848486,
+        "mcc": 0.10719546370912857,
+        "roc_auc": 0.5908126831054688,
+        "pr_auc": 0.5910514284623255,
+        "average_precision": 0.5922315949293857
+      },
+      "seconds": 3.322967299958691,
+      "training": {
+        "settings": {
+          "study_id": "0bd3141e057dd6419b463f8f76799398074643372be1d38fcecee621adc3885f",
+          "variant": "cnn",
+          "seed": 43,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\cnn_s17_lr0.0003\\trials\\cnn_seed43_lr0.0003",
+        "trainable_params": 237920,
+        "head_initial_sha256": "55bc6518cbb8b92df777c5c1d0ab68fbdbb3632de02ce8326769c46c7700a001",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 6,
+        "best_epoch": 2,
+        "best_dev_mcc": 0.19280451008486024,
+        "training_mode": "cached_frozen",
+        "train_seconds": 36.38243340002373,
+        "dev_seconds": 5.260980800143443,
+        "epoch_wall_seconds_total": 41.68795179994777,
+        "mean_train_epoch_seconds": 6.063738900003955,
+        "peak_memory": {
+          "allocated_mib": 118.2861328125,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "6a071867d2ee274f6e2ef222e9946f1c8319ff2e801bee70c6956b1a5e1642ad",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 79,
+        "mlp_width": 139,
+        "cnn_width": 79,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 17,
+        "diagnostic_pooling": "mean"
+      }
+    },
+    {
+      "model": "cnn_mean",
+      "variant": "cnn",
+      "seed": 44,
+      "split": "previous_test",
+      "metrics": {
+        "accuracy": 0.5625,
+        "f1": 0.5130434782608696,
+        "mcc": 0.1276613804646258,
+        "roc_auc": 0.58709716796875,
+        "pr_auc": 0.5924150239195798,
+        "average_precision": 0.5962331533727773
+      },
+      "seconds": 0.8170800999505445,
+      "training": {
+        "settings": {
+          "study_id": "0bd3141e057dd6419b463f8f76799398074643372be1d38fcecee621adc3885f",
+          "variant": "cnn",
+          "seed": 44,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\cnn_s17_lr0.0003\\trials\\cnn_seed44_lr0.0003",
+        "trainable_params": 237920,
+        "head_initial_sha256": "bf784917a9879c56f45de919633c087a944c5d043d0b8288db9af2759c84f5d4",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 8,
+        "best_epoch": 4,
+        "best_dev_mcc": 0.18968144847130217,
+        "training_mode": "cached_frozen",
+        "train_seconds": 46.43446189991664,
+        "dev_seconds": 6.690220199991018,
+        "epoch_wall_seconds_total": 53.188691200106405,
+        "mean_train_epoch_seconds": 5.80430773748958,
+        "peak_memory": {
+          "allocated_mib": 118.2861328125,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "b594e1eb82a66cb672a01c7a1b51cafd1bb1b20b06e433bbf1bb7ff4bafed4f4",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 79,
+        "mlp_width": 139,
+        "cnn_width": 79,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 17,
+        "diagnostic_pooling": "mean"
+      }
+    },
+    {
+      "model": "cnn_mean",
+      "variant": "cnn",
+      "seed": 44,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.5625,
+        "f1": 0.5151515151515151,
+        "mcc": 0.12745464125129366,
+        "roc_auc": 0.5982265472412109,
+        "pr_auc": 0.5951030168141551,
+        "average_precision": 0.5957814513254119
+      },
+      "seconds": 3.381468700012192,
+      "training": {
+        "settings": {
+          "study_id": "0bd3141e057dd6419b463f8f76799398074643372be1d38fcecee621adc3885f",
+          "variant": "cnn",
+          "seed": 44,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\cnn_s17_lr0.0003\\trials\\cnn_seed44_lr0.0003",
+        "trainable_params": 237920,
+        "head_initial_sha256": "bf784917a9879c56f45de919633c087a944c5d043d0b8288db9af2759c84f5d4",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 8,
+        "best_epoch": 4,
+        "best_dev_mcc": 0.18968144847130217,
+        "training_mode": "cached_frozen",
+        "train_seconds": 46.43446189991664,
+        "dev_seconds": 6.690220199991018,
+        "epoch_wall_seconds_total": 53.188691200106405,
+        "mean_train_epoch_seconds": 5.80430773748958,
+        "peak_memory": {
+          "allocated_mib": 118.2861328125,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "b594e1eb82a66cb672a01c7a1b51cafd1bb1b20b06e433bbf1bb7ff4bafed4f4",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 79,
+        "mlp_width": 139,
+        "cnn_width": 79,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 17,
+        "diagnostic_pooling": "mean"
+      }
+    },
+    {
+      "model": "cnn_attention",
+      "variant": "cnn",
+      "seed": 42,
+      "split": "previous_test",
+      "metrics": {
+        "accuracy": 0.56640625,
+        "f1": 0.5066666666666667,
+        "mcc": 0.13688772067304905,
+        "roc_auc": 0.575469970703125,
+        "pr_auc": 0.5762087584045239,
+        "average_precision": 0.5797828493681629
+      },
+      "seconds": 0.7841749999206513,
+      "training": {
+        "settings": {
+          "study_id": "43e51f6dbc056ce9a76629d38fe4b12407643362d77def8ed1da7d0f164c1d10",
+          "variant": "cnn",
+          "seed": 42,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\cnn_s17_lr0.0003_attention\\trials\\cnn_seed42_lr0.0003",
+        "trainable_params": 238688,
+        "head_initial_sha256": "d6400124f65f0f116e6ff90bb911ea81fe5fd5f5ed76442bbc203a97e096d203",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 8,
+        "best_epoch": 4,
+        "best_dev_mcc": 0.1931818417602717,
+        "training_mode": "cached_frozen",
+        "train_seconds": 47.95370909990743,
+        "dev_seconds": 6.832077599945478,
+        "epoch_wall_seconds_total": 54.84293990023434,
+        "mean_train_epoch_seconds": 5.9942136374884285,
+        "peak_memory": {
+          "allocated_mib": 121.38330078125,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "5083639a5a88cee327a225ba3e264f651b78ec994b686cc5b2283533a89e929b",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 79,
+        "mlp_width": 139,
+        "cnn_width": 79,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 17,
+        "diagnostic_pooling": "attention"
+      }
+    },
+    {
+      "model": "cnn_attention",
+      "variant": "cnn",
+      "seed": 42,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.568359375,
+        "f1": 0.5110619469026548,
+        "mcc": 0.140635987615753,
+        "roc_auc": 0.5976982116699219,
+        "pr_auc": 0.5965190397579597,
+        "average_precision": 0.5973000847073286
+      },
+      "seconds": 3.2310887000057846,
+      "training": {
+        "settings": {
+          "study_id": "43e51f6dbc056ce9a76629d38fe4b12407643362d77def8ed1da7d0f164c1d10",
+          "variant": "cnn",
+          "seed": 42,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\cnn_s17_lr0.0003_attention\\trials\\cnn_seed42_lr0.0003",
+        "trainable_params": 238688,
+        "head_initial_sha256": "d6400124f65f0f116e6ff90bb911ea81fe5fd5f5ed76442bbc203a97e096d203",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 8,
+        "best_epoch": 4,
+        "best_dev_mcc": 0.1931818417602717,
+        "training_mode": "cached_frozen",
+        "train_seconds": 47.95370909990743,
+        "dev_seconds": 6.832077599945478,
+        "epoch_wall_seconds_total": 54.84293990023434,
+        "mean_train_epoch_seconds": 5.9942136374884285,
+        "peak_memory": {
+          "allocated_mib": 121.38330078125,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "5083639a5a88cee327a225ba3e264f651b78ec994b686cc5b2283533a89e929b",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 79,
+        "mlp_width": 139,
+        "cnn_width": 79,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 17,
+        "diagnostic_pooling": "attention"
+      }
+    },
+    {
+      "model": "cnn_attention",
+      "variant": "cnn",
+      "seed": 43,
+      "split": "previous_test",
+      "metrics": {
+        "accuracy": 0.53515625,
+        "f1": 0.43601895734597157,
+        "mcc": 0.07510699937587428,
+        "roc_auc": 0.547332763671875,
+        "pr_auc": 0.5662274487440282,
+        "average_precision": 0.5687193114599927
+      },
+      "seconds": 0.874186799977906,
+      "training": {
+        "settings": {
+          "study_id": "43e51f6dbc056ce9a76629d38fe4b12407643362d77def8ed1da7d0f164c1d10",
+          "variant": "cnn",
+          "seed": 43,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\cnn_s17_lr0.0003_attention\\trials\\cnn_seed43_lr0.0003",
+        "trainable_params": 238688,
+        "head_initial_sha256": "55bc6518cbb8b92df777c5c1d0ab68fbdbb3632de02ce8326769c46c7700a001",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 6,
+        "best_epoch": 2,
+        "best_dev_mcc": 0.19280451008486024,
+        "training_mode": "cached_frozen",
+        "train_seconds": 35.53112410008907,
+        "dev_seconds": 5.173174299998209,
+        "epoch_wall_seconds_total": 40.74593519978225,
+        "mean_train_epoch_seconds": 5.921854016681512,
+        "peak_memory": {
+          "allocated_mib": 121.38330078125,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "15a642696912da23f5299922c18b1971ad59327bdc39d10b78a0e0d554bfbb71",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 79,
+        "mlp_width": 139,
+        "cnn_width": 79,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 17,
+        "diagnostic_pooling": "attention"
+      }
+    },
+    {
+      "model": "cnn_attention",
+      "variant": "cnn",
+      "seed": 43,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.5537109375,
+        "f1": 0.4859392575928009,
+        "mcc": 0.11136273132168915,
+        "roc_auc": 0.5905952453613281,
+        "pr_auc": 0.5909837380137006,
+        "average_precision": 0.5921408754567058
+      },
+      "seconds": 3.1957098999992013,
+      "training": {
+        "settings": {
+          "study_id": "43e51f6dbc056ce9a76629d38fe4b12407643362d77def8ed1da7d0f164c1d10",
+          "variant": "cnn",
+          "seed": 43,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\cnn_s17_lr0.0003_attention\\trials\\cnn_seed43_lr0.0003",
+        "trainable_params": 238688,
+        "head_initial_sha256": "55bc6518cbb8b92df777c5c1d0ab68fbdbb3632de02ce8326769c46c7700a001",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 6,
+        "best_epoch": 2,
+        "best_dev_mcc": 0.19280451008486024,
+        "training_mode": "cached_frozen",
+        "train_seconds": 35.53112410008907,
+        "dev_seconds": 5.173174299998209,
+        "epoch_wall_seconds_total": 40.74593519978225,
+        "mean_train_epoch_seconds": 5.921854016681512,
+        "peak_memory": {
+          "allocated_mib": 121.38330078125,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "15a642696912da23f5299922c18b1971ad59327bdc39d10b78a0e0d554bfbb71",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 79,
+        "mlp_width": 139,
+        "cnn_width": 79,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 17,
+        "diagnostic_pooling": "attention"
+      }
+    },
+    {
+      "model": "cnn_attention",
+      "variant": "cnn",
+      "seed": 44,
+      "split": "previous_test",
+      "metrics": {
+        "accuracy": 0.5546875,
+        "f1": 0.5043478260869565,
+        "mcc": 0.11170370790654759,
+        "roc_auc": 0.5859375,
+        "pr_auc": 0.5925206416351056,
+        "average_precision": 0.5960514251760516
+      },
+      "seconds": 0.7855298999929801,
+      "training": {
+        "settings": {
+          "study_id": "43e51f6dbc056ce9a76629d38fe4b12407643362d77def8ed1da7d0f164c1d10",
+          "variant": "cnn",
+          "seed": 44,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\cnn_s17_lr0.0003_attention\\trials\\cnn_seed44_lr0.0003",
+        "trainable_params": 238688,
+        "head_initial_sha256": "bf784917a9879c56f45de919633c087a944c5d043d0b8288db9af2759c84f5d4",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 8,
+        "best_epoch": 4,
+        "best_dev_mcc": 0.1984895080736548,
+        "training_mode": "cached_frozen",
+        "train_seconds": 47.8634881998878,
+        "dev_seconds": 6.784522199770436,
+        "epoch_wall_seconds_total": 54.70456339989323,
+        "mean_train_epoch_seconds": 5.982936024985975,
+        "peak_memory": {
+          "allocated_mib": 121.38330078125,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "c5d9ce172361923e230fc55e914ee61f0dc5a7adafc83739bf9b68a3e4332916",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 79,
+        "mlp_width": 139,
+        "cnn_width": 79,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 17,
+        "diagnostic_pooling": "attention"
+      }
+    },
+    {
+      "model": "cnn_attention",
+      "variant": "cnn",
+      "seed": 44,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.5625,
+        "f1": 0.5109170305676856,
+        "mcc": 0.1278772966645593,
+        "roc_auc": 0.5983619689941406,
+        "pr_auc": 0.595484294029037,
+        "average_precision": 0.596156062856309
+      },
+      "seconds": 3.1667354999808595,
+      "training": {
+        "settings": {
+          "study_id": "43e51f6dbc056ce9a76629d38fe4b12407643362d77def8ed1da7d0f164c1d10",
+          "variant": "cnn",
+          "seed": 44,
+          "lr": 0.0003
+        },
+        "path": "runs\\epi_diagnostic\\arms\\cnn_s17_lr0.0003_attention\\trials\\cnn_seed44_lr0.0003",
+        "trainable_params": 238688,
+        "head_initial_sha256": "bf784917a9879c56f45de919633c087a944c5d043d0b8288db9af2759c84f5d4",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 8,
+        "best_epoch": 4,
+        "best_dev_mcc": 0.1984895080736548,
+        "training_mode": "cached_frozen",
+        "train_seconds": 47.8634881998878,
+        "dev_seconds": 6.784522199770436,
+        "epoch_wall_seconds_total": 54.70456339989323,
+        "mean_train_epoch_seconds": 5.982936024985975,
+        "peak_memory": {
+          "allocated_mib": 121.38330078125,
+          "reserved_mib": 134.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "c5d9ce172361923e230fc55e914ee61f0dc5a7adafc83739bf9b68a3e4332916",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GM12878_5kb_diagnostic",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/epi_diagnostic",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 79,
+        "mlp_width": 139,
+        "cnn_width": 79,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3,
+        "diagnostic_kernel": 17,
+        "diagnostic_pooling": "attention"
+      }
+    },
+    {
+      "model": "prior_cnn",
+      "variant": "cnn",
+      "seed": 42,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.5625,
+        "f1": 0.5011135857461024,
+        "mcc": 0.12896622339592317,
+        "roc_auc": 0.5954132080078125,
+        "pr_auc": 0.5940349722992168,
+        "average_precision": 0.5948151469594221
+      },
+      "seconds": 3.189215499907732,
+      "training": {
+        "settings": {
+          "study_id": "5537cf8acbc99101e806f31b89e50f3bbd45bee14fc688aac364643d15983c0c",
+          "variant": "cnn",
+          "seed": 42,
+          "lr": 0.0003
+        },
+        "path": "runs\\long_epi_pilot\\bp5000\\trials\\cnn_seed42_lr0.0003",
+        "trainable_params": 236423,
+        "head_initial_sha256": "d6400124f65f0f116e6ff90bb911ea81fe5fd5f5ed76442bbc203a97e096d203",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 9,
+        "best_epoch": 5,
+        "best_dev_mcc": 0.18670905391899717,
+        "training_mode": "cached_frozen",
+        "train_seconds": 50.80506240017712,
+        "dev_seconds": 7.525054900092073,
+        "epoch_wall_seconds_total": 58.394296400016174,
+        "mean_train_epoch_seconds": 5.645006933353013,
+        "peak_memory": {
+          "allocated_mib": 119.3203125,
+          "reserved_mib": 136.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "04e3c7016127587d4d85110aefc0743a341a7125521c73adb567fdbc910918c4",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GUEplus_GM12878_context_pilot",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/long_epi_pilot",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 64,
+        "mlp_width": 139,
+        "cnn_width": 116,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3
+      }
+    },
+    {
+      "model": "prior_cnn",
+      "variant": "cnn",
+      "seed": 43,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.552734375,
+        "f1": 0.49336283185840707,
+        "mcc": 0.1084906190178666,
+        "roc_auc": 0.5904178619384766,
+        "pr_auc": 0.5900174939710949,
+        "average_precision": 0.5912492106572431
+      },
+      "seconds": 3.177296100067906,
+      "training": {
+        "settings": {
+          "study_id": "5537cf8acbc99101e806f31b89e50f3bbd45bee14fc688aac364643d15983c0c",
+          "variant": "cnn",
+          "seed": 43,
+          "lr": 0.0003
+        },
+        "path": "runs\\long_epi_pilot\\bp5000\\trials\\cnn_seed43_lr0.0003",
+        "trainable_params": 236423,
+        "head_initial_sha256": "55bc6518cbb8b92df777c5c1d0ab68fbdbb3632de02ce8326769c46c7700a001",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 6,
+        "best_epoch": 2,
+        "best_dev_mcc": 0.1895706621211097,
+        "training_mode": "cached_frozen",
+        "train_seconds": 32.271407500025816,
+        "dev_seconds": 4.722670500166714,
+        "epoch_wall_seconds_total": 37.0344200002728,
+        "mean_train_epoch_seconds": 5.37856791667097,
+        "peak_memory": {
+          "allocated_mib": 119.3203125,
+          "reserved_mib": 138.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "8ffcd3a5330262bbc30ab89283f3dcf503ba4af8dd6bf8fc1e9cee30f54c386d",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GUEplus_GM12878_context_pilot",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/long_epi_pilot",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 64,
+        "mlp_width": 139,
+        "cnn_width": 116,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3
+      }
+    },
+    {
+      "model": "prior_cnn",
+      "variant": "cnn",
+      "seed": 44,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.552734375,
+        "f1": 0.4853932584269663,
+        "mcc": 0.10927771388880837,
+        "roc_auc": 0.591064453125,
+        "pr_auc": 0.5877725026390119,
+        "average_precision": 0.5886347138966781
+      },
+      "seconds": 3.2377824999857694,
+      "training": {
+        "settings": {
+          "study_id": "5537cf8acbc99101e806f31b89e50f3bbd45bee14fc688aac364643d15983c0c",
+          "variant": "cnn",
+          "seed": 44,
+          "lr": 0.0003
+        },
+        "path": "runs\\long_epi_pilot\\bp5000\\trials\\cnn_seed44_lr0.0003",
+        "trainable_params": 236423,
+        "head_initial_sha256": "bf784917a9879c56f45de919633c087a944c5d043d0b8288db9af2759c84f5d4",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 7,
+        "best_epoch": 3,
+        "best_dev_mcc": 0.18540496217739158,
+        "training_mode": "cached_frozen",
+        "train_seconds": 38.10588509996887,
+        "dev_seconds": 5.698093100101687,
+        "epoch_wall_seconds_total": 43.85352290025912,
+        "mean_train_epoch_seconds": 5.443697871424125,
+        "peak_memory": {
+          "allocated_mib": 119.3203125,
+          "reserved_mib": 138.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "12d658adec9fda18d287158d4c58d1ad8d4a2bd7ee1dd87310391388ca537985",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GUEplus_GM12878_context_pilot",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/long_epi_pilot",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 64,
+        "mlp_width": 139,
+        "cnn_width": 116,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3
+      }
+    },
+    {
+      "model": "prior_fno",
+      "variant": "fno",
+      "seed": 42,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.5595703125,
+        "f1": 0.5016574585635359,
+        "mcc": 0.12249514615193026,
+        "roc_auc": 0.5986785888671875,
+        "pr_auc": 0.5964592779001229,
+        "average_precision": 0.5971842213850846
+      },
+      "seconds": 11.80417200003285,
+      "training": {
+        "settings": {
+          "study_id": "5537cf8acbc99101e806f31b89e50f3bbd45bee14fc688aac364643d15983c0c",
+          "variant": "fno",
+          "seed": 42,
+          "lr": 0.0003
+        },
+        "path": "runs\\long_epi_pilot\\bp5000\\trials\\fno_seed42_lr0.0003",
+        "trainable_params": 237571,
+        "head_initial_sha256": "d6400124f65f0f116e6ff90bb911ea81fe5fd5f5ed76442bbc203a97e096d203",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 10,
+        "best_epoch": 6,
+        "best_dev_mcc": 0.17524966521037333,
+        "training_mode": "cached_frozen",
+        "train_seconds": 158.98285619996022,
+        "dev_seconds": 10.100180499837734,
+        "epoch_wall_seconds_total": 169.15704160032328,
+        "mean_train_epoch_seconds": 15.898285619996022,
+        "peak_memory": {
+          "allocated_mib": 118.32958984375,
+          "reserved_mib": 136.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "9c32b8087d13abfdb284ee9ab62cd2c06d1dfb674426b662e242e526b6bea4dd",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GUEplus_GM12878_context_pilot",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/long_epi_pilot",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 64,
+        "mlp_width": 139,
+        "cnn_width": 116,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3
+      }
+    },
+    {
+      "model": "prior_fno",
+      "variant": "fno",
+      "seed": 43,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.5322265625,
+        "f1": 0.6495976591075348,
+        "mcc": 0.0868135528687438,
+        "roc_auc": 0.5946731567382812,
+        "pr_auc": 0.595370953223483,
+        "average_precision": 0.5962550796299233
+      },
+      "seconds": 3.3868879000656307,
+      "training": {
+        "settings": {
+          "study_id": "5537cf8acbc99101e806f31b89e50f3bbd45bee14fc688aac364643d15983c0c",
+          "variant": "fno",
+          "seed": 43,
+          "lr": 0.0003
+        },
+        "path": "runs\\long_epi_pilot\\bp5000\\trials\\fno_seed43_lr0.0003",
+        "trainable_params": 237571,
+        "head_initial_sha256": "55bc6518cbb8b92df777c5c1d0ab68fbdbb3632de02ce8326769c46c7700a001",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 10,
+        "best_epoch": 6,
+        "best_dev_mcc": 0.1476714379375867,
+        "training_mode": "cached_frozen",
+        "train_seconds": 54.96790280006826,
+        "dev_seconds": 8.066334199975245,
+        "epoch_wall_seconds_total": 63.103945099865086,
+        "mean_train_epoch_seconds": 5.496790280006826,
+        "peak_memory": {
+          "allocated_mib": 118.3330078125,
+          "reserved_mib": 136.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "7b3ec136470b1fbfa4bc2dc8c87939e7504b288545ebf0b7c567ba060d9db14e",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GUEplus_GM12878_context_pilot",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/long_epi_pilot",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 64,
+        "mlp_width": 139,
+        "cnn_width": 116,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3
+      }
+    },
+    {
+      "model": "prior_fno",
+      "variant": "fno",
+      "seed": 44,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.5537109375,
+        "f1": 0.4753157290470723,
+        "mcc": 0.11256532836041894,
+        "roc_auc": 0.5933761596679688,
+        "pr_auc": 0.5897217930832954,
+        "average_precision": 0.590540641054097
+      },
+      "seconds": 3.402386699919589,
+      "training": {
+        "settings": {
+          "study_id": "5537cf8acbc99101e806f31b89e50f3bbd45bee14fc688aac364643d15983c0c",
+          "variant": "fno",
+          "seed": 44,
+          "lr": 0.0003
+        },
+        "path": "runs\\long_epi_pilot\\bp5000\\trials\\fno_seed44_lr0.0003",
+        "trainable_params": 237571,
+        "head_initial_sha256": "bf784917a9879c56f45de919633c087a944c5d043d0b8288db9af2759c84f5d4",
+        "lora_initial_sha256": null,
+        "frozen_weights_sha256": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 8,
+        "best_epoch": 4,
+        "best_dev_mcc": 0.1895706621211097,
+        "training_mode": "cached_frozen",
+        "train_seconds": 43.218280200148,
+        "dev_seconds": 6.438804700039327,
+        "epoch_wall_seconds_total": 49.71246929990593,
+        "mean_train_epoch_seconds": 5.4022850250185,
+        "peak_memory": {
+          "allocated_mib": 118.32958984375,
+          "reserved_mib": 136.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "996605fadff66170de6b31f26febddfafacb5109fada49bbd0a091fb0e204b26",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GUEplus_GM12878_context_pilot",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/long_epi_pilot",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 64,
+        "mlp_width": 139,
+        "cnn_width": 116,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3
+      }
+    },
+    {
+      "model": "prior_lora",
+      "variant": "lora",
+      "seed": 42,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.595703125,
+        "f1": 0.5731958762886598,
+        "mcc": 0.19247978331916044,
+        "roc_auc": 0.6457500457763672,
+        "pr_auc": 0.6346980167847607,
+        "average_precision": 0.6351899743997513
+      },
+      "seconds": 27.18083760002628,
+      "training": {
+        "settings": {
+          "study_id": "5537cf8acbc99101e806f31b89e50f3bbd45bee14fc688aac364643d15983c0c",
+          "variant": "lora",
+          "seed": 42,
+          "lr": 0.0003
+        },
+        "path": "runs\\long_epi_pilot\\bp5000\\trials\\lora_seed42_lr0.0003",
+        "trainable_params": 222722,
+        "head_initial_sha256": "d6400124f65f0f116e6ff90bb911ea81fe5fd5f5ed76442bbc203a97e096d203",
+        "lora_initial_sha256": "ece4eb51cd5b0aec1c67209486e65dc7d56fc522a65c8177aab7e45ffcae612b",
+        "frozen_weights_sha256": "ba0934199335fefe51c86307486db3f1a5bf987cbc39cedf2ecfcc265f1b3b7e",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 12,
+        "best_epoch": 10,
+        "best_dev_mcc": 0.2427883980335843,
+        "training_mode": "online_lora",
+        "train_seconds": 888.2822817999404,
+        "dev_seconds": 91.68203010002617,
+        "epoch_wall_seconds_total": 980.0612630998949,
+        "mean_train_epoch_seconds": 74.02352348332836,
+        "peak_memory": {
+          "allocated_mib": 3570.05322265625,
+          "reserved_mib": 9724.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "caa1f12ebc453cc25c4f71c58b04a5e2f51457f263d87adf2bbffb704ce40e26",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GUEplus_GM12878_context_pilot",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/long_epi_pilot",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 64,
+        "mlp_width": 139,
+        "cnn_width": 116,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3
+      }
+    },
+    {
+      "model": "prior_lora",
+      "variant": "lora",
+      "seed": 43,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.5791015625,
+        "f1": 0.495906432748538,
+        "mcc": 0.16759629087687367,
+        "roc_auc": 0.6250114440917969,
+        "pr_auc": 0.6151083526859417,
+        "average_precision": 0.6161726371097419
+      },
+      "seconds": 27.058941999915987,
+      "training": {
+        "settings": {
+          "study_id": "5537cf8acbc99101e806f31b89e50f3bbd45bee14fc688aac364643d15983c0c",
+          "variant": "lora",
+          "seed": 43,
+          "lr": 0.0003
+        },
+        "path": "runs\\long_epi_pilot\\bp5000\\trials\\lora_seed43_lr0.0003",
+        "trainable_params": 222722,
+        "head_initial_sha256": "55bc6518cbb8b92df777c5c1d0ab68fbdbb3632de02ce8326769c46c7700a001",
+        "lora_initial_sha256": "865f278c955e77c213c0ad9bd907a63572d9e71a0897b0c11d80b3f061acfa52",
+        "frozen_weights_sha256": "ba0934199335fefe51c86307486db3f1a5bf987cbc39cedf2ecfcc265f1b3b7e",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 9,
+        "best_epoch": 5,
+        "best_dev_mcc": 0.17638342073763938,
+        "training_mode": "online_lora",
+        "train_seconds": 559.2142954998417,
+        "dev_seconds": 59.11849390016869,
+        "epoch_wall_seconds_total": 618.3999974998878,
+        "mean_train_epoch_seconds": 62.13492172220463,
+        "peak_memory": {
+          "allocated_mib": 3562.3544921875,
+          "reserved_mib": 6890.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "00977a82c5b9fd8fe3104b45d0795136b86c8a8a05851b9376430769506c29a4",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GUEplus_GM12878_context_pilot",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/long_epi_pilot",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 64,
+        "mlp_width": 139,
+        "cnn_width": 116,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3
+      }
+    },
+    {
+      "model": "prior_lora",
+      "variant": "lora",
+      "seed": 44,
+      "split": "new_holdout",
+      "metrics": {
+        "accuracy": 0.5419921875,
+        "f1": 0.5511961722488038,
+        "mcc": 0.08405510693572117,
+        "roc_auc": 0.5614852905273438,
+        "pr_auc": 0.5629044748944904,
+        "average_precision": 0.564408694359966
+      },
+      "seconds": 26.991101199993864,
+      "training": {
+        "settings": {
+          "study_id": "5537cf8acbc99101e806f31b89e50f3bbd45bee14fc688aac364643d15983c0c",
+          "variant": "lora",
+          "seed": 44,
+          "lr": 0.0003
+        },
+        "path": "runs\\long_epi_pilot\\bp5000\\trials\\lora_seed44_lr0.0003",
+        "trainable_params": 222722,
+        "head_initial_sha256": "bf784917a9879c56f45de919633c087a944c5d043d0b8288db9af2759c84f5d4",
+        "lora_initial_sha256": "90f106680b782e272ddea1e38364aa20aaa4a94e9b5cbe6cb1f05b9224f9cbc8",
+        "frozen_weights_sha256": "ba0934199335fefe51c86307486db3f1a5bf987cbc39cedf2ecfcc265f1b3b7e",
+        "frozen_weights_unchanged": true,
+        "epochs_completed": 6,
+        "best_epoch": 2,
+        "best_dev_mcc": 0.1343003068765518,
+        "training_mode": "online_lora",
+        "train_seconds": 372.53954390005674,
+        "dev_seconds": 39.39999490021728,
+        "epoch_wall_seconds_total": 411.98359169985633,
+        "mean_train_epoch_seconds": 62.08992398334279,
+        "peak_memory": {
+          "allocated_mib": 3562.25,
+          "reserved_mib": 6910.0
+        },
+        "test_evaluated": false
+      },
+      "checkpoint_sha256": "fafbbb61045e0de417cede7384cb20c541f6c93e740fe67a373e071ba418cc32",
+      "config": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GUEplus_GM12878_context_pilot",
+        "data_dir": "data/long_epi_pilot/bp5000",
+        "output_dir": "runs/long_epi_pilot",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 64,
+        "mlp_width": 139,
+        "cnn_width": 116,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3
+      }
+    }
+  ]
+}

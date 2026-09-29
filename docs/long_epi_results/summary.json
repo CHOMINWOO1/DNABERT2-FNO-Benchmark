@@ -1,0 +1,856 @@
+{
+  "study_id": "1d6eb7bfd080cd0b266c1eada0ac8b4a721c40f7eff6457746af87277a5bc9b7",
+  "plan": {
+    "base_config": "configs/comparative_study.json",
+    "output_dir": "runs/long_epi_pilot",
+    "data_root": "data/long_epi_pilot",
+    "lengths_bp": [
+      1000,
+      2000,
+      5000
+    ],
+    "variants": [
+      "cnn",
+      "fno",
+      "lora"
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "batch_size": 2,
+    "gradient_accumulation": 16,
+    "length_bucketing": false,
+    "epochs": 12,
+    "patience": 4,
+    "learning_rate": 0.0003,
+    "lora_head_learning_rate": 0.001,
+    "max_tokens": 5002,
+    "inference_repeats": 64,
+    "inference_warmup": 3,
+    "selection": "fixed learning rates from prior promoter study; no LR search on this task",
+    "purpose": "exploratory matched-pair context-length test, not full GUE+ benchmark"
+  },
+  "by_length": {
+    "bp1000": {
+      "protocol": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GUEplus_GM12878_disjoint_pilot_bp1000",
+        "data_dir": "data\\long_epi_pilot\\bp1000",
+        "output_dir": "runs\\long_epi_pilot\\bp1000",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 64,
+        "mlp_width": 139,
+        "cnn_width": 116,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3
+      },
+      "summary": {
+        "cnn": {
+          "n_seeds": 3,
+          "trainable_params": 236423,
+          "selected_lr": 0.0003,
+          "metrics": {
+            "accuracy": {
+              "mean": 0.6184895833333334,
+              "sd": 0.004510548978043951,
+              "per_seed": {
+                "42": 0.62109375,
+                "43": 0.62109375,
+                "44": 0.61328125
+              }
+            },
+            "f1": {
+              "mean": 0.5807093095009939,
+              "sd": 0.009177623060178955,
+              "per_seed": {
+                "42": 0.5907172995780591,
+                "43": 0.5726872246696035,
+                "44": 0.5787234042553191
+              }
+            },
+            "mcc": {
+              "mean": 0.24107616249103322,
+              "sd": 0.010050745045191042,
+              "per_seed": {
+                "42": 0.24490055959841803,
+                "43": 0.24865332461323475,
+                "44": 0.22967460326144687
+              }
+            },
+            "roc_auc": {
+              "mean": 0.631591796875,
+              "sd": 0.000213623046875,
+              "per_seed": {
+                "42": 0.631683349609375,
+                "43": 0.631744384765625,
+                "44": 0.63134765625
+              }
+            },
+            "pr_auc": {
+              "mean": 0.626603665884672,
+              "sd": 0.005446654487738665,
+              "per_seed": {
+                "42": 0.6303686183677546,
+                "43": 0.6290840894481803,
+                "44": 0.6203582898380812
+              }
+            },
+            "average_precision": {
+              "mean": 0.6307137617099275,
+              "sd": 0.0037316001025467253,
+              "per_seed": {
+                "42": 0.6334765384540991,
+                "43": 0.6321959616151132,
+                "44": 0.6264687850605706
+              }
+            }
+          },
+          "mean_train_seconds": 32.68918699992355,
+          "max_train_peak_mib": 78.13134765625,
+          "mean_inference_samples_per_second": 106.58191887618496
+        },
+        "fno": {
+          "n_seeds": 3,
+          "trainable_params": 237571,
+          "selected_lr": 0.0003,
+          "metrics": {
+            "accuracy": {
+              "mean": 0.6106770833333334,
+              "sd": 0.004510548978043951,
+              "per_seed": {
+                "42": 0.61328125,
+                "43": 0.61328125,
+                "44": 0.60546875
+              }
+            },
+            "f1": {
+              "mean": 0.5553908127686943,
+              "sd": 0.014409264849475205,
+              "per_seed": {
+                "42": 0.5676855895196506,
+                "43": 0.5395348837209303,
+                "44": 0.5589519650655022
+              }
+            },
+            "mcc": {
+              "mean": 0.22891136792992442,
+              "sd": 0.01194604625735766,
+              "per_seed": {
+                "42": 0.2317776002045137,
+                "43": 0.23916356546381579,
+                "44": 0.21579293812144382
+              }
+            },
+            "roc_auc": {
+              "mean": 0.6319681803385416,
+              "sd": 0.0010713075435114208,
+              "per_seed": {
+                "42": 0.632476806640625,
+                "43": 0.6326904296875,
+                "44": 0.6307373046875
+              }
+            },
+            "pr_auc": {
+              "mean": 0.6251146111694933,
+              "sd": 0.007668549515524147,
+              "per_seed": {
+                "42": 0.631745078070612,
+                "43": 0.6268821263037965,
+                "44": 0.6167166291340713
+              }
+            },
+            "average_precision": {
+              "mean": 0.6293809092821295,
+              "sd": 0.006134653877087354,
+              "per_seed": {
+                "42": 0.6349908784135787,
+                "43": 0.6303216106281977,
+                "44": 0.6228302388046121
+              }
+            }
+          },
+          "mean_train_seconds": 39.660091800033115,
+          "max_train_peak_mib": 77.73681640625,
+          "mean_inference_samples_per_second": 104.41274017841143
+        },
+        "lora": {
+          "n_seeds": 3,
+          "trainable_params": 222722,
+          "selected_lr": 0.0003,
+          "metrics": {
+            "accuracy": {
+              "mean": 0.6028645833333334,
+              "sd": 0.008131507810414582,
+              "per_seed": {
+                "42": 0.59375,
+                "43": 0.609375,
+                "44": 0.60546875
+              }
+            },
+            "f1": {
+              "mean": 0.5717455339568476,
+              "sd": 0.03770385898065008,
+              "per_seed": {
+                "42": 0.5315315315315315,
+                "43": 0.6062992125984252,
+                "44": 0.5774058577405857
+              }
+            },
+            "mcc": {
+              "mean": 0.20869540746012696,
+              "sd": 0.012660116736387403,
+              "per_seed": {
+                "42": 0.1944866553305261,
+                "43": 0.21877670777129785,
+                "44": 0.212822859278557
+              }
+            },
+            "roc_auc": {
+              "mean": 0.6323140462239584,
+              "sd": 0.010838911228335055,
+              "per_seed": {
+                "42": 0.621673583984375,
+                "43": 0.643341064453125,
+                "44": 0.631927490234375
+              }
+            },
+            "pr_auc": {
+              "mean": 0.6141243959425213,
+              "sd": 0.022784617069456177,
+              "per_seed": {
+                "42": 0.6176440832690278,
+                "43": 0.6349443579880086,
+                "44": 0.5897847465705274
+              }
+            },
+            "average_precision": {
+              "mean": 0.6188902110453616,
+              "sd": 0.02230824720511097,
+              "per_seed": {
+                "42": 0.6205833335872712,
+                "43": 0.6403036564098032,
+                "44": 0.5957836431390101
+              }
+            }
+          },
+          "mean_train_seconds": 121.38640239993886,
+          "max_train_peak_mib": 1009.1640625,
+          "mean_inference_samples_per_second": 128.8727426766113
+        }
+      },
+      "paired_mcc_differences": {
+        "fno_minus_cnn": {
+          "per_seed": {
+            "42": -0.013122959393904315,
+            "43": -0.009489759149418964,
+            "44": -0.013881665140003052
+          },
+          "mean_delta_mcc": -0.012164794561108777,
+          "sd_delta_mcc": 0.0023475028099315827,
+          "positive_seeds": 0
+        },
+        "fno_minus_lora": {
+          "per_seed": {
+            "42": 0.037290944873987625,
+            "43": 0.02038685769251794,
+            "44": 0.0029700788428868308
+          },
+          "mean_delta_mcc": 0.020215960469797466,
+          "sd_delta_mcc": 0.017161071227541194,
+          "positive_seeds": 3
+        }
+      },
+      "cache_generation_seconds_shared": 13.511840000050142,
+      "limitation": "One cleaned random split of one short task. Seed SD is training variation, not external generalization uncertainty."
+    },
+    "bp2000": {
+      "protocol": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GUEplus_GM12878_disjoint_pilot_bp2000",
+        "data_dir": "data\\long_epi_pilot\\bp2000",
+        "output_dir": "runs\\long_epi_pilot\\bp2000",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 64,
+        "mlp_width": 139,
+        "cnn_width": 116,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3
+      },
+      "summary": {
+        "cnn": {
+          "n_seeds": 3,
+          "trainable_params": 236423,
+          "selected_lr": 0.0003,
+          "metrics": {
+            "accuracy": {
+              "mean": 0.5807291666666666,
+              "sd": 0.005966895436140416,
+              "per_seed": {
+                "42": 0.5859375,
+                "43": 0.58203125,
+                "44": 0.57421875
+              }
+            },
+            "f1": {
+              "mean": 0.5106415341134701,
+              "sd": 0.057531724778484075,
+              "per_seed": {
+                "42": 0.576,
+                "43": 0.46766169154228854,
+                "44": 0.48826291079812206
+              }
+            },
+            "mcc": {
+              "mean": 0.17045033496399387,
+              "sd": 0.012127906101110955,
+              "per_seed": {
+                "42": 0.17206413926368555,
+                "43": 0.18169054172704024,
+                "44": 0.15759632390125583
+              }
+            },
+            "roc_auc": {
+              "mean": 0.6078592936197916,
+              "sd": 0.00845515006318143,
+              "per_seed": {
+                "42": 0.601531982421875,
+                "43": 0.617462158203125,
+                "44": 0.604583740234375
+              }
+            },
+            "pr_auc": {
+              "mean": 0.6049398052729722,
+              "sd": 0.015315501566789026,
+              "per_seed": {
+                "42": 0.5971035301227007,
+                "43": 0.6225878074530211,
+                "44": 0.595128078243195
+              }
+            },
+            "average_precision": {
+              "mean": 0.6083020272361418,
+              "sd": 0.0142861449295746,
+              "per_seed": {
+                "42": 0.600747796962731,
+                "43": 0.6247793053907389,
+                "44": 0.5993789793549557
+              }
+            }
+          },
+          "mean_train_seconds": 28.075616066654522,
+          "max_train_peak_mib": 87.056640625,
+          "mean_inference_samples_per_second": 91.8194941056801
+        },
+        "fno": {
+          "n_seeds": 3,
+          "trainable_params": 237571,
+          "selected_lr": 0.0003,
+          "metrics": {
+            "accuracy": {
+              "mean": 0.5807291666666666,
+              "sd": 0.03322226776607571,
+              "per_seed": {
+                "42": 0.54296875,
+                "43": 0.59375,
+                "44": 0.60546875
+              }
+            },
+            "f1": {
+              "mean": 0.5093323425813897,
+              "sd": 0.08043486710247598,
+              "per_seed": {
+                "42": 0.44019138755980863,
+                "43": 0.49019607843137253,
+                "44": 0.5976095617529881
+              }
+            },
+            "mcc": {
+              "mean": 0.16956186766319334,
+              "sd": 0.06689679940705057,
+              "per_seed": {
+                "42": 0.09239131562447776,
+                "43": 0.20519567041703082,
+                "44": 0.21109861694807142
+              }
+            },
+            "roc_auc": {
+              "mean": 0.6130472819010416,
+              "sd": 0.019412090475114968,
+              "per_seed": {
+                "42": 0.590728759765625,
+                "43": 0.622406005859375,
+                "44": 0.626007080078125
+              }
+            },
+            "pr_auc": {
+              "mean": 0.6065065221985758,
+              "sd": 0.02015516619785944,
+              "per_seed": {
+                "42": 0.583674259124144,
+                "43": 0.6218273363910517,
+                "44": 0.6140179710805317
+              }
+            },
+            "average_precision": {
+              "mean": 0.6102576647422863,
+              "sd": 0.019913064627938702,
+              "per_seed": {
+                "42": 0.5875474115196855,
+                "43": 0.6247294308580014,
+                "44": 0.6184961518491717
+              }
+            }
+          },
+          "mean_train_seconds": 50.22024893322183,
+          "max_train_peak_mib": 86.52294921875,
+          "mean_inference_samples_per_second": 89.35811450745707
+        },
+        "lora": {
+          "n_seeds": 3,
+          "trainable_params": 222722,
+          "selected_lr": 0.0003,
+          "metrics": {
+            "accuracy": {
+              "mean": 0.59375,
+              "sd": 0.051674830294230284,
+              "per_seed": {
+                "42": 0.6328125,
+                "43": 0.61328125,
+                "44": 0.53515625
+              }
+            },
+            "f1": {
+              "mean": 0.6077892228931878,
+              "sd": 0.01868982277337462,
+              "per_seed": {
+                "42": 0.5948275862068966,
+                "43": 0.6292134831460674,
+                "44": 0.5993265993265994
+              }
+            },
+            "mcc": {
+              "mean": 0.1906826577298079,
+              "sd": 0.10312482349126206,
+              "per_seed": {
+                "42": 0.27042102426470555,
+                "43": 0.22740377343594767,
+                "44": 0.07422317548877042
+              }
+            },
+            "roc_auc": {
+              "mean": 0.6326090494791666,
+              "sd": 0.04965676362168339,
+              "per_seed": {
+                "42": 0.667022705078125,
+                "43": 0.655120849609375,
+                "44": 0.57568359375
+              }
+            },
+            "pr_auc": {
+              "mean": 0.6073442644933691,
+              "sd": 0.037158215486976426,
+              "per_seed": {
+                "42": 0.6313064132389112,
+                "43": 0.6261867938813356,
+                "44": 0.5645395863598603
+              }
+            },
+            "average_precision": {
+              "mean": 0.6121697419671225,
+              "sd": 0.03601183458072875,
+              "per_seed": {
+                "42": 0.6355990470752616,
+                "43": 0.6302066099873371,
+                "44": 0.5707035688387685
+              }
+            }
+          },
+          "mean_train_seconds": 173.00018070013417,
+          "max_train_peak_mib": 1431.4501953125,
+          "mean_inference_samples_per_second": 108.21237035913494
+        }
+      },
+      "paired_mcc_differences": {
+        "fno_minus_cnn": {
+          "per_seed": {
+            "42": -0.07967282363920779,
+            "43": 0.02350512868999058,
+            "44": 0.053502293046815586
+          },
+          "mean_delta_mcc": -0.0008884673008005411,
+          "sd_delta_mcc": 0.06985834645985718,
+          "positive_seeds": 2
+        },
+        "fno_minus_lora": {
+          "per_seed": {
+            "42": -0.17802970864022777,
+            "43": -0.022208103018916847,
+            "44": 0.136875441459301
+          },
+          "mean_delta_mcc": -0.021120790066614537,
+          "sd_delta_mcc": 0.15745539075209164,
+          "positive_seeds": 1
+        }
+      },
+      "cache_generation_seconds_shared": 15.962933299946599,
+      "limitation": "One cleaned random split of one short task. Seed SD is training variation, not external generalization uncertainty."
+    },
+    "bp5000": {
+      "protocol": {
+        "model_id": "zhihan1996/DNABERT-2-117M",
+        "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+        "dataset": "GUEplus_GM12878_disjoint_pilot_bp5000",
+        "data_dir": "data\\long_epi_pilot\\bp5000",
+        "output_dir": "runs\\long_epi_pilot\\bp5000",
+        "cache_dir": ".cache",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "seed": 42,
+        "variants": [
+          "cnn",
+          "fno",
+          "lora"
+        ],
+        "max_tokens": 5002,
+        "batch_size": 2,
+        "gradient_accumulation": 16,
+        "length_bucketing": false,
+        "epochs": 12,
+        "patience": 4,
+        "learning_rate": 0.0003,
+        "frozen_learning_rates": [
+          0.0003,
+          0.001
+        ],
+        "lora_learning_rates": [
+          0.0001,
+          0.0003
+        ],
+        "lora_head_learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "width": 64,
+        "mlp_width": 139,
+        "cnn_width": 116,
+        "modes": 16,
+        "fno_layers": 1,
+        "dropout": 0.1,
+        "alpha_init": 0.1,
+        "lora_rank": 6,
+        "lora_alpha": 12,
+        "lora_dropout": 0.1,
+        "precision": "bf16",
+        "device": "cuda",
+        "num_workers": 0,
+        "selection_metric": "mcc",
+        "min_delta": 0.0001,
+        "inference_repeats": 64,
+        "inference_warmup": 3
+      },
+      "summary": {
+        "cnn": {
+          "n_seeds": 3,
+          "trainable_params": 236423,
+          "selected_lr": 0.0003,
+          "metrics": {
+            "accuracy": {
+              "mean": 0.5651041666666666,
+              "sd": 0.03157384284630766,
+              "per_seed": {
+                "42": 0.59375,
+                "43": 0.53125,
+                "44": 0.5703125
+              }
+            },
+            "f1": {
+              "mean": 0.491991991991992,
+              "sd": 0.04409236133981389,
+              "per_seed": {
+                "42": 0.5315315315315315,
+                "43": 0.4444444444444444,
+                "44": 0.5
+              }
+            },
+            "mcc": {
+              "mean": 0.13560732895243868,
+              "sd": 0.06503860208303752,
+              "per_seed": {
+                "42": 0.1944866553305261,
+                "43": 0.0657951694959769,
+                "44": 0.14654016203081313
+              }
+            },
+            "roc_auc": {
+              "mean": 0.5680440266927084,
+              "sd": 0.018386235101834573,
+              "per_seed": {
+                "42": 0.581878662109375,
+                "43": 0.54718017578125,
+                "44": 0.5750732421875
+              }
+            },
+            "pr_auc": {
+              "mean": 0.5719934641648209,
+              "sd": 0.008617586269902538,
+              "per_seed": {
+                "42": 0.5818715491259876,
+                "43": 0.5680938307683774,
+                "44": 0.5660150126000978
+              }
+            },
+            "average_precision": {
+              "mean": 0.5763593279950793,
+              "sd": 0.008599925558704367,
+              "per_seed": {
+                "42": 0.5861414001835276,
+                "43": 0.5699877455860625,
+                "44": 0.5729488382156477
+              }
+            }
+          },
+          "mean_train_seconds": 40.3941183333906,
+          "max_train_peak_mib": 119.3203125,
+          "mean_inference_samples_per_second": 37.289996022814165
+        },
+        "fno": {
+          "n_seeds": 3,
+          "trainable_params": 237571,
+          "selected_lr": 0.0003,
+          "metrics": {
+            "accuracy": {
+              "mean": 0.5638020833333334,
+              "sd": 0.03157384284630766,
+              "per_seed": {
+                "42": 0.58203125,
+                "43": 0.52734375,
+                "44": 0.58203125
+              }
+            },
+            "f1": {
+              "mean": 0.5591225606249081,
+              "sd": 0.08433737634748822,
+              "per_seed": {
+                "42": 0.5244444444444445,
+                "43": 0.6552706552706553,
+                "44": 0.49765258215962443
+              }
+            },
+            "mcc": {
+              "mean": 0.14162724037380955,
+              "sd": 0.05204759280721398,
+              "per_seed": {
+                "42": 0.16909659612553118,
+                "43": 0.08159971436819362,
+                "44": 0.17418541062770382
+              }
+            },
+            "roc_auc": {
+              "mean": 0.5824076334635416,
+              "sd": 0.004939167334717063,
+              "per_seed": {
+                "42": 0.5841064453125,
+                "43": 0.586273193359375,
+                "44": 0.57684326171875
+              }
+            },
+            "pr_auc": {
+              "mean": 0.5806322647863881,
+              "sd": 0.00833458459002179,
+              "per_seed": {
+                "42": 0.5789834182220229,
+                "43": 0.5896680386909479,
+                "44": 0.5732453374461934
+              }
+            },
+            "average_precision": {
+              "mean": 0.5850592741427539,
+              "sd": 0.008231594856010879,
+              "per_seed": {
+                "42": 0.5834249482046832,
+                "43": 0.5939854375384521,
+                "44": 0.5777674366851266
+              }
+            }
+          },
+          "mean_train_seconds": 85.7230130667255,
+          "max_train_peak_mib": 118.3330078125,
+          "mean_inference_samples_per_second": 37.10129215759814
+        },
+        "lora": {
+          "n_seeds": 3,
+          "trainable_params": 222722,
+          "selected_lr": 0.0003,
+          "metrics": {
+            "accuracy": {
+              "mean": 0.6067708333333334,
+              "sd": 0.04009063624567878,
+              "per_seed": {
+                "42": 0.640625,
+                "43": 0.6171875,
+                "44": 0.5625
+              }
+            },
+            "f1": {
+              "mean": 0.5878663101564986,
+              "sd": 0.03258249563583717,
+              "per_seed": {
+                "42": 0.6229508196721312,
+                "43": 0.5585585585585585,
+                "44": 0.582089552238806
+              }
+            },
+            "mcc": {
+              "mean": 0.21705181751216052,
+              "sd": 0.0816507282680112,
+              "per_seed": {
+                "42": 0.282494169258455,
+                "43": 0.2431083191631576,
+                "44": 0.1255529641148689
+              }
+            },
+            "roc_auc": {
+              "mean": 0.6201375325520834,
+              "sd": 0.06063230957538983,
+              "per_seed": {
+                "42": 0.669158935546875,
+                "43": 0.638916015625,
+                "44": 0.552337646484375
+              }
+            },
+            "pr_auc": {
+              "mean": 0.6024557261147685,
+              "sd": 0.03930244248754324,
+              "per_seed": {
+                "42": 0.632491555448863,
+                "43": 0.6169008171098479,
+                "44": 0.5579748057855947
+              }
+            },
+            "average_precision": {
+              "mean": 0.6060373999693424,
+              "sd": 0.03942535806478109,
+              "per_seed": {
+                "42": 0.6353527430844866,
+                "43": 0.6215428988695857,
+                "44": 0.561216557953955
+              }
+            }
+          },
+          "mean_train_seconds": 606.6787070666129,
+          "max_train_peak_mib": 3570.05322265625,
+          "mean_inference_samples_per_second": 39.88799559794638
+        }
+      },
+      "paired_mcc_differences": {
+        "fno_minus_cnn": {
+          "per_seed": {
+            "42": -0.025390059204994903,
+            "43": 0.01580454487221672,
+            "44": 0.027645248596890687
+          },
+          "mean_delta_mcc": 0.006019911421370834,
+          "sd_delta_mcc": 0.027838646828388516,
+          "positive_seeds": 2
+        },
+        "fno_minus_lora": {
+          "per_seed": {
+            "42": -0.11339757313292381,
+            "43": -0.16150860479496398,
+            "44": 0.04863244651283491
+          },
+          "mean_delta_mcc": -0.07542457713835096,
+          "sd_delta_mcc": 0.11009666970344573,
+          "positive_seeds": 1
+        }
+      },
+      "cache_generation_seconds_shared": 42.47448630002327,
+      "limitation": "One cleaned random split of one short task. Seed SD is training variation, not external generalization uncertainty."
+    }
+  }
+}

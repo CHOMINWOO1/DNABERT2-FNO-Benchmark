@@ -1,0 +1,102 @@
+{
+  "models": {
+    "mlp": {
+      "trainable_params": [
+        238160
+      ],
+      "width": 79,
+      "trials": 35,
+      "selected_checkpoints": 15,
+      "total_epochs": 305,
+      "train_seconds": 303.6360438002739,
+      "dev_seconds": 51.40281529875938,
+      "train_seconds_per_epoch": 0.9955280124599145,
+      "peak_allocated_mib": 1959.36181640625,
+      "peak_reserved_mib": 2006.0,
+      "evaluation_seconds": 2.570048999739811,
+      "evaluation_rows_per_second": 11991.600161366607
+    },
+    "cnn": {
+      "trainable_params": [
+        237921
+      ],
+      "width": 62,
+      "trials": 35,
+      "selected_checkpoints": 15,
+      "total_epochs": 323,
+      "train_seconds": 334.0727562016109,
+      "dev_seconds": 54.81018240109552,
+      "train_seconds_per_epoch": 1.0342809789523557,
+      "peak_allocated_mib": 1957.86572265625,
+      "peak_reserved_mib": 2004.0,
+      "evaluation_seconds": 2.585870699840598,
+      "evaluation_rows_per_second": 11918.229322873642
+    },
+    "fno": {
+      "trainable_params": [
+        235587
+      ],
+      "width": 44,
+      "trials": 35,
+      "selected_checkpoints": 15,
+      "total_epochs": 296,
+      "train_seconds": 315.8417509992141,
+      "dev_seconds": 52.13205800030846,
+      "train_seconds_per_epoch": 1.0670329425649125,
+      "peak_allocated_mib": 1957.8271484375,
+      "peak_reserved_mib": 2006.0,
+      "evaluation_seconds": 2.6655606001149863,
+      "evaluation_rows_per_second": 11561.920595116291
+    }
+  },
+  "feature_cache": {
+    "identity": {
+      "sequence_hash": "07159d701ea53e5dd6f96933e60a427b0b6b77c07dd90b8c51f09318293f634a",
+      "model_id": "zhihan1996/DNABERT-2-117M",
+      "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+      "precision": "bf16",
+      "environment": {
+        "python": "3.12.14",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "packages": {
+          "torch": "2.9.0+cu128",
+          "transformers": "4.44.2",
+          "numpy": "2.5.3",
+          "scikit-learn": "1.9.0",
+          "einops": "0.8.2",
+          "huggingface-hub": "0.36.2"
+        },
+        "cuda_runtime": "12.8",
+        "gpu": "NVIDIA GeForce RTX 5060 Ti",
+        "attention": "upstream_pytorch_eager",
+        "deterministic_algorithms": true,
+        "precision": "bf16",
+        "fft_precision": "float32_complex64"
+      },
+      "bin_bp": 10,
+      "batch_size": 4,
+      "code_sha256": {
+        "scripts/cache_matched_grid.py": "431b0f7983a5b05b1b4fbf0745f5ae65e06cdd7f2d64cf8844626619fdca4ba0",
+        "scripts/matched_cv_models.py": "45d803103d3fdcdcb97b4fae7558eeb9ddb38ab801b4c4e53f928ba0d677540b"
+      }
+    },
+    "shape": [
+      6075,
+      100,
+      768
+    ],
+    "sha256": "1d0160747ba38b025cb38daed215a3572123ad294a295aa4203456605f861b20",
+    "encoder_hash_before": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+    "encoder_hash_after": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+    "seconds": 33.67635859991424,
+    "peak_memory": {
+      "allocated_mib": 543.20751953125,
+      "reserved_mib": 598.0
+    },
+    "tokens_min": 160,
+    "tokens_max": 234,
+    "truncated": 0
+  },
+  "run_elapsed_seconds": 1188.4769682884216,
+  "scope": "Training and evaluation use the fixed GPU grid cache. Evaluation includes ranking metrics and CPU work; it is not an end-to-end DNABERT throughput benchmark."
+}

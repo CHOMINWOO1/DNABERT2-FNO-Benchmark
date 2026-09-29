@@ -1,0 +1,152 @@
+{
+  "models": {
+    "cnn_4096": {
+      "params": [
+        302592
+      ],
+      "epochs": 56,
+      "train_seconds": 61.61541460012086,
+      "dev_seconds": 4.804869400104508,
+      "peak_allocated_mib": 2739.03955078125,
+      "cached_inference_seconds": 0.1604876999820893,
+      "cached_rows_per_second": 6118.8489841252185
+    },
+    "cnn_16384": {
+      "params": [
+        302592
+      ],
+      "epochs": 58,
+      "train_seconds": 63.262710800161585,
+      "dev_seconds": 4.918112899991684,
+      "peak_allocated_mib": 2739.03955078125,
+      "cached_inference_seconds": 0.1599732000225534,
+      "cached_rows_per_second": 6138.528202608657
+    },
+    "cnn_65536": {
+      "params": [
+        302592
+      ],
+      "epochs": 61,
+      "train_seconds": 65.72248680016492,
+      "dev_seconds": 5.135319599532522,
+      "peak_allocated_mib": 2745.60546875,
+      "cached_inference_seconds": 0.16160813330983123,
+      "cached_rows_per_second": 6076.4268473872735
+    },
+    "fno_4096": {
+      "params": [
+        302592
+      ],
+      "epochs": 60,
+      "train_seconds": 85.90919780032709,
+      "dev_seconds": 6.8773367998655885,
+      "peak_allocated_mib": 2739.0439453125,
+      "cached_inference_seconds": 0.2163009666837752,
+      "cached_rows_per_second": 4539.970463634827
+    },
+    "fno_16384": {
+      "params": [
+        302592
+      ],
+      "epochs": 56,
+      "train_seconds": 80.79495290049817,
+      "dev_seconds": 6.412996500264853,
+      "peak_allocated_mib": 2739.0439453125,
+      "cached_inference_seconds": 0.21444593335036188,
+      "cached_rows_per_second": 4579.242817328729
+    },
+    "fno_65536": {
+      "params": [
+        302592
+      ],
+      "epochs": 58,
+      "train_seconds": 80.70760510012042,
+      "dev_seconds": 6.6125922000501305,
+      "peak_allocated_mib": 2749.90771484375,
+      "cached_inference_seconds": 0.21888873334197947,
+      "cached_rows_per_second": 4486.2976042982455
+    },
+    "attention_4096": {
+      "params": [
+        298762
+      ],
+      "epochs": 69,
+      "train_seconds": 107.7629038997693,
+      "dev_seconds": 8.218224799027666,
+      "peak_allocated_mib": 2738.99560546875,
+      "cached_inference_seconds": 0.2282948000356555,
+      "cached_rows_per_second": 4301.455836254831
+    },
+    "attention_16384": {
+      "params": [
+        298762
+      ],
+      "epochs": 54,
+      "train_seconds": 83.27402449992951,
+      "dev_seconds": 6.385778500698507,
+      "peak_allocated_mib": 2738.99560546875,
+      "cached_inference_seconds": 0.2305517999920994,
+      "cached_rows_per_second": 4259.346489741791
+    },
+    "attention_65536": {
+      "params": [
+        298762
+      ],
+      "epochs": 61,
+      "train_seconds": 96.23932999919634,
+      "dev_seconds": 7.143929099780507,
+      "peak_allocated_mib": 2897.01806640625,
+      "cached_inference_seconds": 0.23575713334139436,
+      "cached_rows_per_second": 4165.303446313918
+    }
+  },
+  "encoder": {
+    "identity": {
+      "source_sha256": "af8f7bae92f8e081f2542bc318313292150f588c5728839fe084df78e3d66104",
+      "model_id": "zhihan1996/DNABERT-2-117M",
+      "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+      "encoder_batch_size": 16,
+      "chunk_bp": 1024,
+      "bin_bp": 256,
+      "environment": {
+        "python": "3.12.14",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "packages": {
+          "torch": "2.9.0+cu128",
+          "transformers": "4.44.2",
+          "numpy": "2.5.3",
+          "scikit-learn": "1.9.0",
+          "einops": "0.8.2",
+          "huggingface-hub": "0.36.2"
+        },
+        "cuda_runtime": "12.8",
+        "gpu": "NVIDIA GeForce RTX 5060 Ti",
+        "attention": "upstream_pytorch_eager",
+        "deterministic_algorithms": true,
+        "precision": "bf16",
+        "fft_precision": "float32_complex64"
+      },
+      "code_sha256": {
+        "scripts/cache_continuous_rna.py": "5dc46452813696062f07d07f42bb9f3b3d2a5010e6910183e8c36eb017d1a363",
+        "scripts/matched_cv_models.py": "45d803103d3fdcdcb97b4fae7558eeb9ddb38ab801b4c4e53f928ba0d677540b"
+      }
+    },
+    "shape": [
+      3514,
+      256,
+      768
+    ],
+    "sha256": "cfb85c2229e43c5b6a7873c7a0e8f34b6e43642c72ee7aa06aecf1c158753899",
+    "encoder_hash_before": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+    "encoder_hash_after": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+    "seconds": 742.1565817999654,
+    "peak_memory": {
+      "allocated_mib": 1515.42431640625,
+      "reserved_mib": 2318.0
+    },
+    "min_tokens": 152,
+    "max_tokens": 593,
+    "truncated_chunks": 0
+  },
+  "runner_seconds": 822.7721767425537
+}

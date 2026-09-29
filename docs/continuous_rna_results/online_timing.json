@@ -1,0 +1,206 @@
+{
+  "results": [
+    {
+      "model": "cnn",
+      "bp": 4096,
+      "checkpoint_sha256": "fb3cf5dd8be80e46a23cc9ce9ce657613ee491c8596532a578550c9322ae9380",
+      "seconds": [
+        0.056440999964252114,
+        0.0519394000293687,
+        0.05246749997604638,
+        0.054550600005313754,
+        0.053261499968357384
+      ],
+      "median_seconds": 0.053261499968357384,
+      "min_seconds": 0.0519394000293687,
+      "max_seconds": 0.056440999964252114,
+      "genes_per_second": 75.10115190853425,
+      "bp_per_second": 307614.3182173563,
+      "peak_memory": {
+        "allocated_mib": 662.9814453125,
+        "reserved_mib": 780.0
+      }
+    },
+    {
+      "model": "fno",
+      "bp": 4096,
+      "checkpoint_sha256": "2fbe1a29f598b4821bb1980476dc614a9089e851c0a24e11eef94318177fd455",
+      "seconds": [
+        0.06065679993480444,
+        0.05609919992275536,
+        0.055937099969014525,
+        0.05394219991285354,
+        0.05312259995844215
+      ],
+      "median_seconds": 0.055937099969014525,
+      "min_seconds": 0.05312259995844215,
+      "max_seconds": 0.06065679993480444,
+      "genes_per_second": 71.50889127637538,
+      "bp_per_second": 292900.41866803356,
+      "peak_memory": {
+        "allocated_mib": 662.98291015625,
+        "reserved_mib": 780.0
+      }
+    },
+    {
+      "model": "attention",
+      "bp": 4096,
+      "checkpoint_sha256": "271fedff980a1639de491dc21ca5c3946340ebe46c80f89c1dcd117e3cb7992f",
+      "seconds": [
+        0.05810369993560016,
+        0.05449889996089041,
+        0.054322300013154745,
+        0.05508269998244941,
+        0.05414539994671941
+      ],
+      "median_seconds": 0.05449889996089041,
+      "min_seconds": 0.05414539994671941,
+      "max_seconds": 0.05810369993560016,
+      "genes_per_second": 73.39597685220227,
+      "bp_per_second": 300629.9211866205,
+      "peak_memory": {
+        "allocated_mib": 662.966796875,
+        "reserved_mib": 780.0
+      }
+    },
+    {
+      "model": "cnn",
+      "bp": 16384,
+      "checkpoint_sha256": "a119da2c28ae7f194794b844168ce7d5ff84f6913f09a71a17c995d2775f5a36",
+      "seconds": [
+        0.21006349998060614,
+        0.20191740000154823,
+        0.1986451999982819,
+        0.20006090006791055,
+        0.19751069997437298
+      ],
+      "median_seconds": 0.20006090006791055,
+      "min_seconds": 0.19751069997437298,
+      "max_seconds": 0.21006349998060614,
+      "genes_per_second": 19.993911847053585,
+      "bp_per_second": 327580.25170212594,
+      "peak_memory": {
+        "allocated_mib": 680.16064453125,
+        "reserved_mib": 856.0
+      }
+    },
+    {
+      "model": "fno",
+      "bp": 16384,
+      "checkpoint_sha256": "cca175f01b232397c5e8c80e4423f4206f5168bf796ece9196f3c6f732e6efa3",
+      "seconds": [
+        0.20614460005890578,
+        0.19846940005663782,
+        0.196636600070633,
+        0.19751650001853704,
+        0.19887220009695739
+      ],
+      "median_seconds": 0.19846940005663782,
+      "min_seconds": 0.196636600070633,
+      "max_seconds": 0.20614460005890578,
+      "genes_per_second": 20.15424039604346,
+      "bp_per_second": 330207.07464877603,
+      "peak_memory": {
+        "allocated_mib": 680.162109375,
+        "reserved_mib": 856.0
+      }
+    },
+    {
+      "model": "attention",
+      "bp": 16384,
+      "checkpoint_sha256": "e91fbb51cf41affc7d6cdd87c01d8ed3b03dbfef4ffbe848e4cad6882f03fbbb",
+      "seconds": [
+        0.2054317999863997,
+        0.19896509998943657,
+        0.19840180000755936,
+        0.199284499976784,
+        0.20048500003758818
+      ],
+      "median_seconds": 0.199284499976784,
+      "min_seconds": 0.19840180000755936,
+      "max_seconds": 0.2054317999863997,
+      "genes_per_second": 20.071806891484222,
+      "bp_per_second": 328856.4841100775,
+      "peak_memory": {
+        "allocated_mib": 680.14599609375,
+        "reserved_mib": 856.0
+      }
+    },
+    {
+      "model": "cnn",
+      "bp": 65536,
+      "checkpoint_sha256": "35555f09401970e7e487c79250f380f293c3871be05b6e6d1bd54097bd64fb6e",
+      "seconds": [
+        0.7773978000041097,
+        0.7688127999426797,
+        0.7665950999362394,
+        0.7759845999535173,
+        0.7738053000066429
+      ],
+      "median_seconds": 0.7738053000066429,
+      "min_seconds": 0.7665950999362394,
+      "max_seconds": 0.7773978000041097,
+      "genes_per_second": 5.169258985387747,
+      "bp_per_second": 338772.55686637136,
+      "peak_memory": {
+        "allocated_mib": 679.318359375,
+        "reserved_mib": 862.0
+      }
+    },
+    {
+      "model": "fno",
+      "bp": 65536,
+      "checkpoint_sha256": "21eb7c9937cd4fd97885e729fd60edcb072425aab3ba821e55df400ad2d52756",
+      "seconds": [
+        0.77263459993992,
+        0.7681334000080824,
+        0.7735351000446826,
+        0.7676484000403434,
+        0.7664175999816507
+      ],
+      "median_seconds": 0.7681334000080824,
+      "min_seconds": 0.7664175999816507,
+      "max_seconds": 0.7735351000446826,
+      "genes_per_second": 5.207428813742394,
+      "bp_per_second": 341274.0547374215,
+      "peak_memory": {
+        "allocated_mib": 679.31982421875,
+        "reserved_mib": 862.0
+      }
+    },
+    {
+      "model": "attention",
+      "bp": 65536,
+      "checkpoint_sha256": "b8890511833ec8c457938a58e5133b9a8b0d0ca5741c9561cd0a130ee04eb9ae",
+      "seconds": [
+        0.7738867000443861,
+        0.7784777999622747,
+        0.7659771000035107,
+        0.7653661000076681,
+        0.7634334999602288
+      ],
+      "median_seconds": 0.7659771000035107,
+      "min_seconds": 0.7634334999602288,
+      "max_seconds": 0.7784777999622747,
+      "genes_per_second": 5.2220882321177315,
+      "bp_per_second": 342234.77438006765,
+      "peak_memory": {
+        "allocated_mib": 679.3037109375,
+        "reserved_mib": 864.0
+      }
+    }
+  ],
+  "dev_global_ids": [
+    2030,
+    2031,
+    2032,
+    2033
+  ],
+  "repeats": 5,
+  "warmup_repeats": 1,
+  "scope": "RAM DNA through tokenizer, encoder, bin pooling, global mixer, and CPU output. No disk/model loading or resident feature cache.",
+  "source_sha256": "af8f7bae92f8e081f2542bc318313292150f588c5728839fe084df78e3d66104",
+  "encoder_hash": "43bd5be5f749d0912bf6c2075ff91f88a114d609390689e0121afdcbebfe66fe",
+  "timing_protocol_sha256": "27713811ba46bbd78d8c8f8c84af9626384c0990a301505a0d31a40468f09d79",
+  "benchmark_script_sha256": "1957e715c40d108d8d418354e23c1389bd1b11132c01391f9b66944bd82d12cb"
+}

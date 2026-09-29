@@ -1,0 +1,20 @@
+{
+  "base_config": "configs/comparative_study.json",
+  "output_dir": "runs/long_epi_pilot",
+  "data_root": "data/long_epi_pilot",
+  "lengths_bp": [1000, 2000, 5000],
+  "variants": ["cnn", "fno", "lora"],
+  "seeds": [42, 43, 44],
+  "batch_size": 2,
+  "gradient_accumulation": 16,
+  "length_bucketing": false,
+  "epochs": 12,
+  "patience": 4,
+  "learning_rate": 0.0003,
+  "lora_head_learning_rate": 0.001,
+  "max_tokens": 5002,
+  "inference_repeats": 64,
+  "inference_warmup": 3,
+  "selection": "fixed learning rates from prior promoter study; no LR search on this task",
+  "purpose": "exploratory matched-pair context-length test, not full GUE+ benchmark"
+}
